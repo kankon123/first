@@ -22,6 +22,7 @@
 | [open-questions](docs/open-questions.md) | 未決事項一覧 |
 | [interviews/](docs/interviews/) | 設計インタビュー記録 |
 | [diagrams/](docs/diagrams/) | 構成図 |
+| [sessions/](docs/sessions/) | 議論ログ（設計仮説の経緯） |
 
 ## 設計の核（一行）
 

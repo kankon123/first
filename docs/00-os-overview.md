@@ -35,7 +35,8 @@ flowchart LR
 
 インタビュー記録は [`interviews/`](interviews/) に保存する。  
 未決事項の集約は [`open-questions.md`](open-questions.md)。  
-図単体は [`diagrams/`](diagrams/)。
+図単体は [`diagrams/`](diagrams/)。  
+議論ログは [`sessions/`](sessions/)。
 
 ## 3. 事業の一文定義
 
