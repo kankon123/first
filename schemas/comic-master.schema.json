@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "comic-master",
+  "title": "ComicMaster",
+  "description": "漫画マスター — 悩み別で管理、商品別ではない",
+  "type": "object",
+  "required": [
+    "comicId", "title", "targetWorryTags", "protagonistWorry",
+    "failure", "cause", "realization", "solutionConditions",
+    "showProduct", "panels", "isActive"
+  ],
+  "properties": {
+    "comicId": { "type": "string" },
+    "title": { "type": "string" },
+    "targetTypes": { "type": "array", "items": { "type": "string" } },
+    "targetWorryTags": { "type": "array", "items": { "type": "string" } },
+    "protagonistWorry": { "type": "string" },
+    "failure": { "type": "string" },
+    "cause": { "type": "string" },
+    "realization": { "type": "string" },
+    "solutionConditions": { "type": "array", "items": { "type": "string" } },
+    "showProduct": { "type": "boolean" },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["panelId", "order"],
+        "properties": {
+          "panelId": { "type": "string" },
+          "order": { "type": "number" },
+          "narration": { "type": "string" },
+          "dialogue": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "speaker": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "nextPageOptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label"],
+        "properties": {
+          "label": { "type": "string" },
+          "targetExit": {
+            "enum": ["free_only", "free_affiliate", "paid_affiliate", "own_product", "nothing_now", "future_consider"]
+          },
+          "targetContentId": { "type": "string" }
+        }
+      }
+    },
+    "isActive": { "type": "boolean" }
+  }
+}

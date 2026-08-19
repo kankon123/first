@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "diagnosis-result-master",
+  "title": "DiagnosisResultMaster",
+  "description": "診断結果マスター — 商品名ではなく人物像タイプ",
+  "type": "object",
+  "required": [
+    "resultId", "typeName", "catchCopy", "characteristics",
+    "recommendedFreeContent", "isActive"
+  ],
+  "properties": {
+    "resultId": { "type": "string" },
+    "typeName": { "type": "string" },
+    "catchCopy": { "type": "string" },
+    "characteristics": { "type": "array", "items": { "type": "string" } },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "weaknesses": { "type": "array", "items": { "type": "string" } },
+    "commonFailures": { "type": "array", "items": { "type": "string" } },
+    "whatTheySeek": { "type": "array", "items": { "type": "string" } },
+    "recommendedApproach": { "type": "array", "items": { "type": "string" } },
+    "recommendedFreeContent": { "type": "array", "items": { "type": "string" } },
+    "recommendedFreeAffiliate": { "type": "array", "items": { "type": "string" } },
+    "recommendedPaidAffiliate": { "type": "array", "items": { "type": "string" } },
+    "doNotRecommendWhen": { "type": "array", "items": { "type": "string" } },
+    "comicId": { "type": ["string", "null"] },
+    "lineScenarioId": { "type": ["string", "null"] },
+    "typeConditions": { "type": "object" },
+    "requiredWorryTags": { "type": "array", "items": { "type": "string" } },
+    "isActive": { "type": "boolean" }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "product-master",
+  "title": "ProductMaster",
+  "description": "商品マスター — 診断ロジックと直接結合しない。適合タグでマッチング。",
+  "type": "object",
+  "required": [
+    "productId", "name", "category", "suitableFor", "notSuitableFor",
+    "betTypes", "merits", "demerits", "prDisclosure", "lastVerifiedAt",
+    "isActive", "fitTags"
+  ],
+  "properties": {
+    "productId": { "type": "string" },
+    "name": { "type": "string" },
+    "category": {
+      "enum": ["completely_free", "free_registration", "paid_service", "own_product", "tool", "education"]
+    },
+    "price": { "type": ["number", "null"] },
+    "hasAffiliate": { "type": "boolean", "default": false },
+    "asp": { "type": ["string", "null"] },
+    "conversionCondition": { "type": ["string", "null"] },
+    "conversionReward": { "type": ["number", "null"] },
+    "suitableFor": { "type": "array", "items": { "type": "string" } },
+    "notSuitableFor": { "type": "array", "items": { "type": "string" } },
+    "betTypes": {
+      "type": "array",
+      "items": {
+        "enum": ["umaren", "wide", "tansho_fukusho", "sanrenpuku", "sanrentan", "data", "general"]
+      }
+    },
+    "traits": {
+      "type": "object",
+      "properties": {
+        "jishu": { "type": "number" },
+        "antei": { "type": "number" },
+        "shoutensu": { "type": "number" },
+        "data": { "type": "number" },
+        "jitan": { "type": "number" },
+        "reisei": { "type": "number" }
+      }
+    },
+    "timeSavingLevel": { "type": "number", "minimum": 0, "maximum": 100 },
+    "requiredKnowledge": { "enum": ["beginner", "intermediate", "advanced"] },
+    "isSubscription": { "type": "boolean" },
+    "merits": { "type": "array", "items": { "type": "string" } },
+    "demerits": { "type": "array", "items": { "type": "string" } },
+    "affiliateUrl": { "type": ["string", "null"] },
+    "trackingUrl": { "type": ["string", "null"] },
+    "prDisclosure": { "type": "string" },
+    "lastVerifiedAt": { "type": "string", "format": "date" },
+    "isActive": { "type": "boolean" },
+    "fitTags": { "type": "array", "items": { "type": "string" } },
+    "revenuePriority": { "type": "number", "minimum": 0, "maximum": 100 }
+  }
+}

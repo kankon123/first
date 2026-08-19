@@ -1,0 +1,85 @@
+[
+  {
+    "productId": "P001",
+    "name": "うま連破壊神（トリプルロジック）",
+    "category": "paid_service",
+    "price": 3300,
+    "hasAffiliate": true,
+    "asp": "レジまぐ",
+    "conversionCondition": "有料会員登録（要確認）",
+    "conversionReward": null,
+    "suitableFor": [
+      "馬連が好き",
+      "点数を3点前後に絞りたい",
+      "自分の予想も残したい",
+      "他人の見解をセカンドオピニオンとして使える"
+    ],
+    "notSuitableFor": [
+      "3連単で一撃を狙いたい",
+      "全レース丸投げしたい",
+      "必ず当たるものを求めている",
+      "連敗を一切許容できない"
+    ],
+    "betTypes": ["umaren"],
+    "traits": { "jishu": 30, "shoutensu": 40, "jitan": 15 },
+    "timeSavingLevel": 60,
+    "requiredKnowledge": "beginner",
+    "isSubscription": true,
+    "merits": [
+      "馬連3点前後に絞った買い目",
+      "自分の軸馬を活かせる",
+      "相手選びの別視点が得られる"
+    ],
+    "demerits": [
+      "馬連以外の券種には非対応",
+      "全レース対応ではない可能性",
+      "月額継続が必要"
+    ],
+    "affiliateUrl": null,
+    "trackingUrl": null,
+    "prDisclosure": "【PR】当ページはアフィリエイト広告を利用しています",
+    "lastVerifiedAt": "2026-08-19",
+    "isActive": true,
+    "fitTags": ["second_opinion", "cannot_narrow", "buying_too_many", "umaren"],
+    "revenuePriority": 50
+  },
+  {
+    "productId": "P002",
+    "name": "競馬の達人（無料登録）",
+    "category": "free_registration",
+    "price": null,
+    "hasAffiliate": true,
+    "asp": "A8.net",
+    "conversionCondition": "無料会員登録（要確認）",
+    "conversionReward": null,
+    "suitableFor": [
+      "無料で競馬情報を試したい",
+      "まずは様子を見たい",
+      "予想を全部任せたい"
+    ],
+    "notSuitableFor": [
+      "自分で予想したい",
+      "有料サービスを検討している"
+    ],
+    "betTypes": ["general"],
+    "traits": { "jishu": -30, "jitan": 30 },
+    "timeSavingLevel": 70,
+    "requiredKnowledge": "beginner",
+    "isSubscription": false,
+    "merits": [
+      "完全無料で始められる",
+      "予想時間を大幅に削減"
+    ],
+    "demerits": [
+      "情報の質は有料サービスより劣る可能性",
+      "自分の予想力は伸びない"
+    ],
+    "affiliateUrl": null,
+    "trackingUrl": null,
+    "prDisclosure": "【PR】当ページはアフィリエイト広告を利用しています",
+    "lastVerifiedAt": "2026-08-19",
+    "isActive": false,
+    "fitTags": ["full_delegation", "no_time", "free_trial"],
+    "revenuePriority": 30
+  }
+]

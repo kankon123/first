@@ -1,0 +1,114 @@
+[
+  {
+    "comicId": "C001",
+    "title": "当たっているのに勝っていない？",
+    "targetTypes": ["R001"],
+    "targetWorryTags": ["buying_too_many", "hit_but_no_profit", "second_opinion"],
+    "protagonistWorry": "本命は当たるのに、なぜか毎月マイナス",
+    "failure": "相手7頭も買っていた",
+    "cause": "相手選びで絞り切れず、点数が膨らむ",
+    "realization": "必要なのは全部予想してくれる人ではなく、最後に相手を絞るための別視点",
+    "solutionConditions": [
+      "少点数（3点前後）",
+      "自分の予想を残せる",
+      "最後の判断材料として使える"
+    ],
+    "showProduct": false,
+    "panels": [
+      {
+        "panelId": "C001_P01",
+        "order": 1,
+        "narration": "よし！本命来た！",
+        "dialogue": [{ "speaker": "マサル", "text": "今週もこの馬で行くぞ！" }]
+      },
+      {
+        "panelId": "C001_P02",
+        "order": 2,
+        "narration": "……あれ？",
+        "dialogue": [{ "speaker": "マサル", "text": "今月またマイナス？" }]
+      },
+      {
+        "panelId": "C001_P03",
+        "order": 3,
+        "dialogue": [
+          { "speaker": "マサル", "text": "本命は結構当たってるのにな……" },
+          { "speaker": "友人", "text": "相手7頭も買ってたら、そりゃ残らないよ" }
+        ]
+      },
+      {
+        "panelId": "C001_P04",
+        "order": 4,
+        "dialogue": [
+          { "speaker": "マサル", "text": "でも3頭までなんて自分じゃ絞れないんだよ" }
+        ]
+      },
+      {
+        "panelId": "C001_P05",
+        "order": 5,
+        "dialogue": [
+          { "speaker": "ヒカリ", "text": "全部予想してもらう必要ある？" },
+          { "speaker": "マサル", "text": "え？" },
+          { "speaker": "ヒカリ", "text": "本命は自分で考えたいんでしょ？" },
+          { "speaker": "マサル", "text": "それはそう。" },
+          { "speaker": "ヒカリ", "text": "じゃあ必要なのって、予想を全部やってくれる人じゃなくて、最後に相手を絞るための別の視点じゃない？" }
+        ]
+      }
+    ],
+    "ctaDefinitions": [
+      { "level": "L1", "label": "無料で続きを見る", "description": "このタイプの攻略法を無料で読む" },
+      { "level": "L2", "label": "このタイプの攻略法を見る", "description": "セカンドオピニオン型の考え方" },
+      { "level": "L3", "label": "自分に合う選択肢を見る", "description": "条件に合うサービス候補を確認" }
+    ],
+    "nextPageOptions": [
+      { "label": "無料で続きを見る", "targetContentId": "FC002" },
+      { "label": "おすすめを確認する", "targetExit": "paid_affiliate" },
+      { "label": "今は無料だけ見る", "targetExit": "free_only" }
+    ],
+    "isActive": true
+  },
+  {
+    "comicId": "C002",
+    "title": "毎週予想に3時間？",
+    "targetTypes": ["R002"],
+    "targetWorryTags": ["no_time", "full_delegation"],
+    "protagonistWorry": "週末の予想に時間がかかりすぎる",
+    "failure": "情報収集に3時間、結局間に合わない",
+    "cause": "自力で全部調べようとしている",
+    "realization": "時間をかける部分と任せる部分を分ければいい",
+    "solutionConditions": [
+      "予想時間を大幅に削減",
+      "買い目まで提供してもらえる",
+      "信頼できる情報源"
+    ],
+    "showProduct": false,
+    "panels": [
+      {
+        "panelId": "C002_P01",
+        "order": 1,
+        "dialogue": [
+          { "speaker": "タケシ", "text": "金曜の夜から予想始めて、土曜朝まで3時間……" },
+          { "speaker": "タケシ", "text": "それでも自信がない" }
+        ]
+      },
+      {
+        "panelId": "C002_P02",
+        "order": 2,
+        "dialogue": [
+          { "speaker": "先輩", "text": "全部自分で調べる必要ある？" },
+          { "speaker": "タケシ", "text": "でも任せると当たらないんじゃ……" },
+          { "speaker": "先輩", "text": "時間をかける部分と、任せていい部分を分ければ？" }
+        ]
+      }
+    ],
+    "ctaDefinitions": [
+      { "level": "L1", "label": "無料で続きを見る", "description": "時短の考え方を無料で読む" },
+      { "level": "L3", "label": "自分に合う選択肢を見る", "description": "時短型サービス候補を確認" }
+    ],
+    "nextPageOptions": [
+      { "label": "無料で続きを見る", "targetContentId": "FC003" },
+      { "label": "無料サービスを試す", "targetExit": "free_affiliate" },
+      { "label": "今は情報だけ", "targetExit": "free_only" }
+    ],
+    "isActive": true
+  }
+]

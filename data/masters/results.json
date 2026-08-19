@@ -1,0 +1,175 @@
+[
+  {
+    "resultId": "R001",
+    "typeName": "自力予想×少点数セカンドオピニオン型",
+    "catchCopy": "自分で予想する楽しさを残しつつ、最後の相手選びだけ別視点が欲しいタイプ",
+    "characteristics": [
+      "本命馬を自分で考えるのが好き",
+      "ただし相手馬の絞り込みで点数が膨らむ",
+      "全部任せるのは物足りない",
+      "少点数で勝負したい"
+    ],
+    "strengths": [
+      "予想への当事者意識が高い",
+      "的中したときの達成感を味わえる",
+      "自分の予想力を伸ばせる余地がある"
+    ],
+    "weaknesses": [
+      "相手選びで買い目が増えがち",
+      "当たっても点数過多で利益が出ない",
+      "最後の一頭で迷いやすい"
+    ],
+    "commonFailures": [
+      "本命は当たるのに相手7頭も買っていた",
+      "3頭まで絞れないと思い込んでいる",
+      "全部予想してもらうサービスを試したが物足りなかった"
+    ],
+    "whatTheySeek": [
+      "自分の予想を活かした買い方",
+      "相手馬を3点程度に絞る別視点",
+      "最終判断は自分で下したい"
+    ],
+    "recommendedApproach": [
+      "軸馬は自分で決める",
+      "相手馬の絞り込みだけ外部の視点を参考にする",
+      "馬連3点前後を基本ラインにする"
+    ],
+    "recommendedFreeContent": ["FC001", "FC002"],
+    "recommendedFreeAffiliate": [],
+    "recommendedPaidAffiliate": ["P001"],
+    "doNotRecommendWhen": [
+      "3連単一撃を狙いたい",
+      "全レース丸投げしたい",
+      "予想自体を楽しみたくない"
+    ],
+    "comicId": "C001",
+    "typeConditions": {
+      "jishu": { "min": 40 },
+      "shoutensu": { "min": 20 }
+    },
+    "requiredWorryTags": ["second_opinion"],
+    "isActive": true
+  },
+  {
+    "resultId": "R002",
+    "typeName": "時短丸投げ型",
+    "catchCopy": "予想時間を最小限に、買い目まで任せたいタイプ",
+    "characteristics": [
+      "予想に時間をかけたくない",
+      "結果だけ知りたい",
+      "自分で考えるより効率を重視"
+    ],
+    "strengths": [
+      "時間対効果を重視できる",
+      "感情に左右されにくい",
+      "継続しやすい"
+    ],
+    "weaknesses": [
+      "予想力が伸びにくい",
+      "サービス依存になりやすい",
+      "月額コストがかかる"
+    ],
+    "commonFailures": [
+      "無料情報を集めても結局時間がかかる",
+      "自分で予想すると点数が増える",
+      "忙しくて週末に予想する時間がない"
+    ],
+    "whatTheySeek": [
+      "買い目まで全部知りたい",
+      "予想時間ゼロに近い体験",
+      "信頼できる予想源"
+    ],
+    "recommendedApproach": [
+      "時短型の予想サービスを活用",
+      "自分で予想する時間を確保するより、サービスに任せる方が合理的"
+    ],
+    "recommendedFreeContent": ["FC003"],
+    "recommendedFreeAffiliate": ["P002"],
+    "recommendedPaidAffiliate": [],
+    "doNotRecommendWhen": [
+      "予想自体を楽しみたい",
+      "自分の予想力を伸ばしたい"
+    ],
+    "comicId": "C002",
+    "typeConditions": {
+      "jishu": { "max": -20 },
+      "jitan": { "min": 30 }
+    },
+    "requiredWorryTags": ["no_time", "full_delegation"],
+    "isActive": true
+  },
+  {
+    "resultId": "R003",
+    "typeName": "現状維持で十分型",
+    "catchCopy": "今の買い方で問題なく、有料サービスは不要なタイプ",
+    "characteristics": [
+      "大きな悩みを感じていない",
+      "現在の予想スタイルに満足している",
+      "情報収集自体を楽しんでいる"
+    ],
+    "strengths": [
+      "冷静に馬券と付き合えている",
+      "無駄な出費をしていない",
+      "自分のペースを保てている"
+    ],
+    "weaknesses": [],
+    "commonFailures": [],
+    "whatTheySeek": [
+      "今のスタイルを継続したい",
+      "無料の情報で十分"
+    ],
+    "recommendedApproach": [
+      "今の買い方を続ける",
+      "YouTubeや無料記事で情報を補完する程度でOK"
+    ],
+    "recommendedFreeContent": ["FC001", "FC003"],
+    "recommendedFreeAffiliate": [],
+    "recommendedPaidAffiliate": [],
+    "doNotRecommendWhen": [],
+    "comicId": null,
+    "typeConditions": {
+      "jishu": { "min": -10, "max": 10 },
+      "antei": { "min": -10, "max": 10 }
+    },
+    "isActive": true
+  },
+  {
+    "resultId": "R004",
+    "typeName": "今は様子見型",
+    "catchCopy": "まだ自分のスタイルが定まっていない、情報収集フェーズのタイプ",
+    "characteristics": [
+      "馬券の買い方に迷いがある",
+      "まだ試行錯誤中",
+      "有料サービスを使う判断材料が足りない"
+    ],
+    "strengths": [
+      "慎重に判断できる",
+      "衝動買いをしない",
+      "情報を集める姿勢がある"
+    ],
+    "weaknesses": [
+      "行動に移せない",
+      "情報過多で混乱しやすい"
+    ],
+    "commonFailures": [
+      "色々試したが定着しない",
+      "有料サービスに手を出すタイミングが分からない"
+    ],
+    "whatTheySeek": [
+      "自分に合うスタイルを見つけたい",
+      "まずは無料で学びたい"
+    ],
+    "recommendedApproach": [
+      "まずは無料コンテンツで馬券の基礎を固める",
+      "記録をつけて自分の傾向を把握する",
+      "しばらく経ってから再度診断を受ける"
+    ],
+    "recommendedFreeContent": ["FC001", "FC002", "FC003"],
+    "recommendedFreeAffiliate": [],
+    "recommendedPaidAffiliate": [],
+    "doNotRecommendWhen": [],
+    "comicId": null,
+    "typeConditions": {},
+    "isActive": true
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "questionId": "Q001",
+    "text": "一番困ることは？",
+    "surfaceIntent": "ユーザーの主要な悩みを特定する",
+    "internalIntent": "悩みタグ付与、出口判定への入力",
+    "displayOrder": 1,
+    "options": [
+      {
+        "optionId": "Q001_A",
+        "label": "買い目が増えてしまう",
+        "traitDeltas": { "shoutensu": 30, "jishu": 10 },
+        "worryTags": ["buying_too_many", "cannot_narrow"]
+      },
+      {
+        "optionId": "Q001_B",
+        "label": "軸馬を決められない",
+        "traitDeltas": { "jishu": -10, "reisei": -15 },
+        "worryTags": ["cannot_decide_axis"]
+      },
+      {
+        "optionId": "Q001_C",
+        "label": "最後に余計な馬券を追加する",
+        "traitDeltas": { "reisei": -25, "shoutensu": 15 },
+        "worryTags": ["last_minute_add", "emotional_betting"]
+      },
+      {
+        "optionId": "Q001_D",
+        "label": "予想する時間がない",
+        "traitDeltas": { "jitan": 30, "jishu": -15 },
+        "worryTags": ["no_time"]
+      },
+      {
+        "optionId": "Q001_E",
+        "label": "当たっているのにお金が残らない",
+        "traitDeltas": { "shoutensu": 25, "antei": 20 },
+        "worryTags": ["hit_but_no_profit", "buying_too_many"]
+      },
+      {
+        "optionId": "Q001_F",
+        "label": "連敗すると買い方が変わる",
+        "traitDeltas": { "reisei": -30, "antei": 15 },
+        "worryTags": ["losing_streak_changes", "emotional_betting"]
+      },
+      {
+        "optionId": "Q001_G",
+        "label": "高配当を狙うと全然当たらない",
+        "traitDeltas": { "antei": -25 },
+        "worryTags": ["high_payout_miss"]
+      }
+    ],
+    "comicBranchTags": ["buying_too_many", "no_time", "emotional_betting"],
+    "isActive": true
+  },
+  {
+    "questionId": "Q002",
+    "text": "一番理想に近いのは？",
+    "surfaceIntent": "ユーザーが求める理想の買い方を把握する",
+    "internalIntent": "欲求の発見、有料許容度、特性スコア加算",
+    "displayOrder": 2,
+    "options": [
+      {
+        "optionId": "Q002_A",
+        "label": "自分で予想し、最後だけ参考にしたい",
+        "traitDeltas": { "jishu": 40, "shoutensu": 20 },
+        "paidToleranceDelta": 15,
+        "worryTags": ["second_opinion"]
+      },
+      {
+        "optionId": "Q002_B",
+        "label": "候補馬まで絞ってほしい",
+        "traitDeltas": { "jishu": 10, "jitan": 15 },
+        "paidToleranceDelta": 20,
+        "worryTags": ["need_narrowing"]
+      },
+      {
+        "optionId": "Q002_C",
+        "label": "買い目まで全部知りたい",
+        "traitDeltas": { "jishu": -40, "jitan": 25 },
+        "paidToleranceDelta": 25,
+        "worryTags": ["full_delegation"]
+      },
+      {
+        "optionId": "Q002_D",
+        "label": "とにかく予想時間を減らしたい",
+        "traitDeltas": { "jitan": 40, "jishu": -20 },
+        "paidToleranceDelta": 20,
+        "worryTags": ["no_time"]
+      },
+      {
+        "optionId": "Q002_E",
+        "label": "的中率が多少落ちても大きな配当を狙いたい",
+        "traitDeltas": { "antei": -35 },
+        "paidToleranceDelta": 10,
+        "worryTags": ["high_payout_seek"]
+      },
+      {
+        "optionId": "Q002_F",
+        "label": "大勝ちは不要なので負けにくくしたい",
+        "traitDeltas": { "antei": 35, "shoutensu": 15 },
+        "paidToleranceDelta": 10,
+        "worryTags": ["stability_seek"]
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "questionId": "Q003",
+    "text": "本命馬を考えること自体は楽しいですか？",
+    "surfaceIntent": "予想への当事者意識を測る",
+    "internalIntent": "自力/他力スコア、セカンドオピニオン適性判定",
+    "displayOrder": 3,
+    "options": [
+      {
+        "optionId": "Q003_A",
+        "label": "はい、自分で考えるのが好き",
+        "traitDeltas": { "jishu": 35 },
+        "worryTags": ["enjoys_self_prediction"]
+      },
+      {
+        "optionId": "Q003_B",
+        "label": "どちらとも言えない",
+        "traitDeltas": { "jishu": 0 },
+        "worryTags": []
+      },
+      {
+        "optionId": "Q003_C",
+        "label": "いいえ、面倒なので任せたい",
+        "traitDeltas": { "jishu": -35, "jitan": 20 },
+        "worryTags": ["full_delegation"]
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "questionId": "Q004",
+    "text": "全部予想してもらうより、自分の予想を残したまま最後の判断材料だけ欲しいですか？",
+    "surfaceIntent": "セカンドオピニオン欲求の確認",
+    "internalIntent": "セカンドオピニオン型判定の核心質問",
+    "displayOrder": 4,
+    "options": [
+      {
+        "optionId": "Q004_A",
+        "label": "はい、まさにそれが欲しい",
+        "traitDeltas": { "jishu": 30, "shoutensu": 25 },
+        "paidToleranceDelta": 20,
+        "worryTags": ["second_opinion", "cannot_narrow"]
+      },
+      {
+        "optionId": "Q004_B",
+        "label": "どちらかというとそう",
+        "traitDeltas": { "jishu": 15, "shoutensu": 10 },
+        "paidToleranceDelta": 10,
+        "worryTags": ["second_opinion"]
+      },
+      {
+        "optionId": "Q004_C",
+        "label": "いいえ、全部任せたい",
+        "traitDeltas": { "jishu": -30, "jitan": 15 },
+        "paidToleranceDelta": 15,
+        "worryTags": ["full_delegation"]
+      }
+    ],
+    "isActive": true
+  }
+]

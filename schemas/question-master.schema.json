@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "question-master",
+  "title": "QuestionMaster",
+  "description": "診断質問マスター — 表の目的と裏の目的を分離管理",
+  "type": "object",
+  "required": ["questionId", "text", "options", "surfaceIntent", "internalIntent", "displayOrder", "isActive"],
+  "properties": {
+    "questionId": { "type": "string" },
+    "text": { "type": "string" },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["optionId", "label"],
+        "properties": {
+          "optionId": { "type": "string" },
+          "label": { "type": "string" },
+          "traitDeltas": {
+            "type": "object",
+            "properties": {
+              "jishu": { "type": "number" },
+              "antei": { "type": "number" },
+              "shoutensu": { "type": "number" },
+              "data": { "type": "number" },
+              "jitan": { "type": "number" },
+              "reisei": { "type": "number" }
+            }
+          },
+          "paidToleranceDelta": { "type": "number" },
+          "worryTags": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "surfaceIntent": { "type": "string" },
+    "internalIntent": { "type": "string" },
+    "displayOrder": { "type": "number" },
+    "comicBranchTags": { "type": "array", "items": { "type": "string" } },
+    "isActive": { "type": "boolean" }
+  }
+}
