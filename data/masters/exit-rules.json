@@ -1,0 +1,60 @@
+[
+  {
+    "ruleId": "ER001",
+    "exitType": "free_only",
+    "conditions": {
+      "traitRanges": {
+        "jishu": { "min": -10, "max": 10 },
+        "antei": { "min": -10, "max": 10 }
+      },
+      "paidTolerance": { "max": 10 }
+    },
+    "priority": 10,
+    "isActive": true
+  },
+  {
+    "ruleId": "ER002",
+    "exitType": "nothing_now",
+    "conditions": {
+      "paidTolerance": { "max": 5 }
+    },
+    "priority": 5,
+    "isActive": true
+  },
+  {
+    "ruleId": "ER003",
+    "exitType": "paid_affiliate",
+    "conditions": {
+      "traitRanges": {
+        "jishu": { "min": 30 },
+        "shoutensu": { "min": 20 }
+      },
+      "requiredTags": ["second_opinion"],
+      "paidTolerance": { "min": 15 }
+    },
+    "priority": 80,
+    "isActive": true
+  },
+  {
+    "ruleId": "ER004",
+    "exitType": "free_affiliate",
+    "conditions": {
+      "traitRanges": {
+        "jishu": { "max": -10 },
+        "jitan": { "min": 25 }
+      },
+      "requiredTags": ["full_delegation", "no_time"]
+    },
+    "priority": 60,
+    "isActive": true
+  },
+  {
+    "ruleId": "ER005",
+    "exitType": "future_consider",
+    "conditions": {
+      "paidTolerance": { "min": 5, "max": 14 }
+    },
+    "priority": 20,
+    "isActive": true
+  }
+]

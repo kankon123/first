@@ -1,0 +1,32 @@
+[
+  {
+    "contentId": "FC001",
+    "title": "馬券管理表（無料）",
+    "type": "spreadsheet",
+    "url": "",
+    "description": "自分の馬券記録をつけて傾向を把握するための無料管理表",
+    "targetTypes": ["R003", "R004"],
+    "targetWorryTags": ["general"],
+    "isActive": true
+  },
+  {
+    "contentId": "FC002",
+    "title": "セカンドオピニオン型の買い方ガイド",
+    "type": "pdf",
+    "url": "",
+    "description": "自分で予想しつつ、最後の相手選びだけ別視点を取り入れる方法",
+    "targetTypes": ["R001"],
+    "targetWorryTags": ["second_opinion", "cannot_narrow"],
+    "isActive": true
+  },
+  {
+    "contentId": "FC003",
+    "title": "YouTube: 馬券の基礎講座",
+    "type": "youtube",
+    "url": "",
+    "description": "馬券初心者向けの基礎知識動画シリーズ",
+    "targetTypes": ["R002", "R003", "R004"],
+    "targetWorryTags": ["general"],
+    "isActive": true
+  }
+]

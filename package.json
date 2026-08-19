@@ -1,0 +1,13 @@
+{
+  "name": "keiba-diagnosis-funnel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "競馬診断→漫画→商品紹介ファネル — 自分に合った馬券との付き合い方を見つける診断",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
