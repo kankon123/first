@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# Generic v2 video build: 100 scenes, varied motion, phrase-synced ASS, 720p <100MB
+# Video build v3: phrase-synced ASS, 720p <100MB
+# Default motion = still frames + soft edge fades (no jerky zoompan)
 # Usage: bash video-pipeline/build_video.sh <project-dir> <ass-basename> [output-basename]
+# Env: MOTION=still_xfade (default) | kenburns (legacy, not recommended)
 set -euo pipefail
 
 PROJECT="$(cd "${1:?project dir}" && pwd)"
@@ -17,8 +19,17 @@ test -f "audio/narration.mp3"
 test -f "subs/${ASS_NAME}.ass"
 test -f "audio/duration.txt"
 
+# Resolve motion mode: env > config.json > default still_xfade
+MOTION="${MOTION:-}"
+if [ -z "$MOTION" ] && [ -f config.json ]; then
+  MOTION=$(python3 -c "import json; print(json.load(open('config.json')).get('motion',''))" 2>/dev/null || true)
+fi
+MOTION="${MOTION:-still_xfade}"
+export MOTION
+echo "motion_mode $MOTION"
+
 python3 <<'PY'
-import json, subprocess
+import json, subprocess, os
 from pathlib import Path
 
 ROOT = Path('.')
@@ -26,6 +37,7 @@ timeline = json.loads((ROOT/'audio/phrase_timeline.json').read_text())
 fps = 30
 tmp = ROOT/'out/clips'
 tmp.mkdir(parents=True, exist_ok=True)
+motion = os.environ.get('MOTION', 'still_xfade')
 
 MOTIONS = [
     (1.10, "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"),
@@ -47,26 +59,37 @@ for item in timeline:
     if not img.exists():
         raise SystemExit(f'missing {img}')
     out = tmp/f'c{i:03d}.mp4'
-    zoom_end, x_t, y_t = MOTIONS[i % len(MOTIONS)]
-    if zoom_end < 1.0:
-        z_expr = f"{1.0/zoom_end}-({1.0/zoom_end}-1)*on/{frames}"
+
+    if motion == 'kenburns':
+        zoom_end, x_t, y_t = MOTIONS[i % len(MOTIONS)]
+        if zoom_end < 1.0:
+            z_expr = f"{1.0/zoom_end}-({1.0/zoom_end}-1)*on/{frames}"
+        else:
+            z_expr = f"1+({zoom_end}-1)*(3*(on/{frames})^2-2*(on/{frames})^3)"
+        x_expr = x_t.format(frames=frames)
+        y_expr = y_t.format(frames=frames)
+        fade = min(0.25, secs/4)
+        vf = (
+            f"scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,"
+            f"zoompan=z='{z_expr}':x='{x_expr}':y='{y_expr}':d={frames}:s=1280x720:fps={fps},"
+            f"fade=t=in:st=0:d={fade:.3f},fade=t=out:st={max(secs-fade,0):.3f}:d={fade:.3f},format=yuv420p"
+        )
     else:
-        z_expr = f"1+({zoom_end}-1)*(3*(on/{frames})^2-2*(on/{frames})^3)"
-    x_expr = x_t.format(frames=frames)
-    y_expr = y_t.format(frames=frames)
-    fade = min(0.25, secs/4)
-    vf = (
-        f"scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,"
-        f"zoompan=z='{z_expr}':x='{x_expr}':y='{y_expr}':d={frames}:s=1280x720:fps={fps},"
-        f"fade=t=in:st=0:d={fade:.3f},fade=t=out:st={max(secs-fade,0):.3f}:d={fade:.3f},format=yuv420p"
-    )
+        # still_xfade (default): locked still + short soft fades (no zoompan jitter)
+        fade = min(0.18, max(0.08, secs/6))
+        vf = (
+            f"scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,"
+            f"fps={fps},format=yuv420p,"
+            f"fade=t=in:st=0:d={fade:.3f},fade=t=out:st={max(secs-fade,0):.3f}:d={fade:.3f}"
+        )
+
     cmd = [
         'ffmpeg','-y','-loop','1','-i',str(img),
         '-vf', vf, '-t', f'{secs:.3f}',
         '-c:v','libx264','-profile:v','main','-level','3.1','-pix_fmt','yuv420p',
         '-preset','fast','-crf','20','-an', str(out)
     ]
-    print('clip', i, f'{secs:.2f}s', flush=True)
+    print('clip', i, f'{secs:.2f}s', motion, flush=True)
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     list_lines.append(f"file '{out.resolve()}'")
 

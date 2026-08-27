@@ -7,7 +7,6 @@ import asyncio
 import json
 import re
 import subprocess
-from collections import Counter
 from pathlib import Path
 
 DEFAULT_VOICE = "ja-JP-KeitaNeural"
@@ -94,34 +93,104 @@ def load_config(project: Path) -> dict:
     return {}
 
 
-def theme_for(text: str, i: int, horses: dict[str, str], course_hint: str) -> str:
+# Forced visual variety so consecutive cuts do not look identical.
+DISTANCES = [
+    "extreme close-up detail",
+    "tight portrait framing",
+    "medium shot",
+    "full-body shot",
+    "wide establishing shot",
+    "very wide landscape framing",
+]
+ANGLES = [
+    "eye-level camera",
+    "low-angle hero shot",
+    "high-angle looking down",
+    "side profile angle",
+    "three-quarter angle",
+    "over-the-rail viewpoint",
+]
+LIGHTS = [
+    "soft morning light",
+    "bright overcast daylight",
+    "golden hour warm side light",
+    "blue hour cool twilight",
+    "strong backlight with rim light",
+    "diffused cloudy stadium light",
+]
+ATMOSPHERES = [
+    "clear crisp air",
+    "humid summer haze",
+    "after-rain wet turf sheen",
+    "dusty paddock atmosphere",
+    "wind-blown mane suggestion",
+    "quiet empty-track stillness",
+]
+SUBJECTS = [
+    "empty turf and white rail only",
+    "single thoroughbred centered",
+    "two horses overlapping in depth",
+    "paddock walk scene",
+    "crowd as soft bokeh only",
+    "finish-line geometry focus",
+    "analysis desk with papers and monitor glow",
+    "betting tickets in shallow depth of field",
+    "starting gate structure without readable text",
+    "grandstand architecture silhouette",
+]
+
+
+def variety_suffix(i: int) -> str:
+    d = DISTANCES[i % len(DISTANCES)]
+    a = ANGLES[(i // 2) % len(ANGLES)]
+    l = LIGHTS[(i // 3) % len(LIGHTS)]
+    at = ATMOSPHERES[(i // 5) % len(ATMOSPHERES)]
+    s = SUBJECTS[(i * 3) % len(SUBJECTS)]
+    # Unique constraint line reduces near-duplicates across a 100-cut set.
+    return (
+        f"{d}, {a}, {l}, {at}, primary subject: {s}, "
+        f"distinct composition #{i+1}, avoid repeating previous framing, "
+        f"no text, no logos, no readable saddle cloths"
+    )
+
+
+def base_theme(text: str, i: int, horses: dict[str, str], course_hint: str) -> str:
     for name, prompt in horses.items():
         if name in text:
             return prompt
     if any(k in text for k in ("馬単", "3連単", "高配当", "ワイド", "馬券", "1000円")):
-        return "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos"
-    if any(k in text for k in ("結論", "判定", "診断", "まとめ", "AI")):
-        return "dark teal cinematic racing analysis desk with subtle glowing nodes, no readable text, no logos"
-    if any(k in text for k in ("消", "危険", "切り")):
-        return "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos"
+        return "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal"
+    if any(k in text for k in ("結論", "判定", "診断", "まとめ", "AI", "中波乱", "大荒れ")):
+        return "cinematic racing analysis atmosphere with subtle data glow, dark teal charcoal palette, no readable text"
+    if any(k in text for k in ("消", "危険", "切り", "様子見")):
+        return "isolated thoroughbred mood of doubt, cooler color grade, photoreal"
+    if any(k in text for k in ("ハンデ", "別定", "斤量", "条件")):
+        return "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal"
+    if any(k in text for k in ("距離", "2000", "マイル", "1200", "芝")):
+        return "distance emphasis on long turf corridor or short sprint chute, photoreal"
     if course_hint and any(k in text for k in course_hint.split("|")):
-        return "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos"
+        return "Japanese turf racecourse establishing atmosphere matching the race venue, photoreal"
     if any(k in text for k in ("コメント", "質問", "皆さんは")):
-        return "empty racecourse grandstand at blue hour, contemplative mood, photoreal, no text no logos"
+        return "empty grandstand question-ending mood, contemplative, photoreal"
     if any(k in text for k in ("LINE", "概要欄", "枠順")):
-        return "quiet turf rail at dusk with soft fog, calm closing mood, photoreal, no text no logos"
+        return "quiet closing atmosphere at the rail, soft fog, photoreal"
     generics = [
-        "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos",
-        "jockey and thoroughbred walking to paddock, shallow depth, photoreal, no text no logos",
-        "finish-line perspective on green turf with distant trees, photoreal, no text no logos",
-        "racehorses warming up on turf track, soft haze, photoreal, no text no logos",
-        "grandstand silhouette against cloudy sky, photoreal, no text no logos",
-        "single thoroughbred cantering past camera on turf, photoreal, no text no logos",
-        "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos",
-        "analytical notebook and stopwatch near turf window light, no readable text, photoreal",
+        "Japanese turf track geometry and rail lines, photoreal",
+        "paddock tension before a graded race, photoreal",
+        "finish-straight perspective with distant trees, photoreal",
+        "warm-up gallop atmosphere on turf, photoreal",
+        "architecture of a Japanese grandstand under cloud, photoreal",
+        "single horse canter freeze with shallow depth, photoreal",
+        "pre-race stillness near the gate area, photoreal",
+        "desk-side research mood with turf visible through window, no readable text, photoreal",
+        "wet grass texture macro after watering, photoreal",
+        "shadow of a horse across the rail at dusk, photoreal",
     ]
     return generics[i % len(generics)]
 
+
+def theme_for(text: str, i: int, horses: dict[str, str], course_hint: str) -> str:
+    return f"{base_theme(text, i, horses, course_hint)}, {variety_suffix(i)}"
 
 async def synth_all(cues: list[str], out_dir: Path, voice: str) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -232,7 +301,10 @@ def main() -> None:
             {
                 "i": i,
                 "cue": cue,
-                "prompt": f"{base}, 16:9 composition, edge-to-edge, variation {i+1}, high detail",
+                "prompt": (
+                    f"{base}, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, "
+                    f"high detail, unique shot id {i+1:03d}"
+                ),
             }
         )
     prompts_dir = project / "prompts"
@@ -240,10 +312,12 @@ def main() -> None:
     (prompts_dir / "image_prompts.json").write_text(
         json.dumps(prompts, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    theme_count = len(
-        Counter(theme_for(c, i, horses, course_hint).split(",")[0][:24] for i, c in enumerate(cues))
-    )
-    print("prompts", len(prompts), "themes", theme_count)
+    # Count unique variety combos (distance+angle+light roughly)
+    variety_keys = [
+        f"{DISTANCES[i % len(DISTANCES)]}|{ANGLES[(i // 2) % len(ANGLES)]}|{LIGHTS[(i // 3) % len(LIGHTS)]}"
+        for i in range(len(cues))
+    ]
+    print("prompts", len(prompts), "variety_combos", len(set(variety_keys)))
     print("done", project)
 
 

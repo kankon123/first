@@ -3,6 +3,7 @@
   "ass_name": "niigata",
   "output_name": "niigata_kinen_2026",
   "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
   "course_keywords": "新潟|芝2000|外回り|新潟記念",
   "horses": {
     "ロデオドライブ": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos",
