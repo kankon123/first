@@ -1,0 +1,502 @@
+[
+  {
+    "i": 0,
+    "cue": "競馬ラボです。今回は、札幌記念2026。",
+    "prompt": "cinematic Sapporo racecourse establishing shot, lush green turf curve, cool summer light, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 1, high detail"
+  },
+  {
+    "i": 1,
+    "cue": "今年の札幌記念が、荒れるレースなのか。それとも、上位人気で決まるのか。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 2, high detail"
+  },
+  {
+    "i": 2,
+    "cue": "AIスコアと過去10年のデータから、判定していきます。",
+    "prompt": "dark teal cinematic data-lab atmosphere with subtle glowing analysis nodes, racing research mood, no readable text, no logos, 16:9 composition, edge-to-edge, variation seed feel 3, high detail"
+  },
+  {
+    "i": 3,
+    "cue": "最初に、今回の結論です。今年の札幌記念は、大荒れまでは想定していません。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 4, high detail"
+  },
+  {
+    "i": 4,
+    "cue": "ただし、想定1番人気がそのまま勝ち切るとも考えていません。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 5, high detail"
+  },
+  {
+    "i": 5,
+    "cue": "AIの判定は、「1番人気は残る。しかし、勝つ馬は別」という中波乱です。",
+    "prompt": "dark teal cinematic data-lab atmosphere with subtle glowing analysis nodes, racing research mood, no readable text, no logos, 16:9 composition, edge-to-edge, variation seed feel 6, high detail"
+  },
+  {
+    "i": 6,
+    "cue": "今回は、現在の想定上位5頭を、ワイドで残す馬と、切る馬に分けます。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 7, high detail"
+  },
+  {
+    "i": 7,
+    "cue": "最後には、1000円で買う場合のワイド2点も公開します。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 8, high detail"
+  },
+  {
+    "i": 8,
+    "cue": "それでは、札幌記念が荒れるかを見分けるポイントを、3つ確認します。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 9, high detail"
+  },
+  {
+    "i": 9,
+    "cue": "1つ目は、1番人気の成績です。札幌記念では、過去10年、1番人気が勝ち切れていません。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 10, high detail"
+  },
+  {
+    "i": 10,
+    "cue": "一方で、3着以内率は60パーセントです。つまり札幌記念の1番人気は、完全に消すと危険。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 11, high detail"
+  },
+  {
+    "i": 11,
+    "cue": "しかし、単勝で信頼するのも危険という存在です。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth of field, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 12, high detail"
+  },
+  {
+    "i": 12,
+    "cue": "このように、1番人気が勝ち切れない一方で、馬券内には残っている。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 13, high detail"
+  },
+  {
+    "i": 13,
+    "cue": "こういうレースは、大荒れというより、1着が入れ替わる中波乱になりやすいと判断できます。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 14, high detail"
+  },
+  {
+    "i": 14,
+    "cue": "2つ目は、前走の格です。札幌記念は、定量で行われるG2です。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 15, high detail"
+  },
+  {
+    "i": 15,
+    "cue": "ハンデ戦のように、軽い斤量を生かして、格下の馬が一気に逆転するレースではありません。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 16, high detail"
+  },
+  {
+    "i": 16,
+    "cue": "過去10年でも、3着以内の多くは、前走で国内外のG1を使っていました。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 17, high detail"
+  },
+  {
+    "i": 17,
+    "cue": "反対に、前走が重賞ではなかった馬は、過去10年で3着以内がありません。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 18, high detail"
+  },
+  {
+    "i": 18,
+    "cue": "つまり今年も、人気がないという理由だけで、",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 19, high detail"
+  },
+  {
+    "i": 19,
+    "cue": "条件戦やオープンから来た馬を穴馬として買うのは危険です。",
+    "prompt": "analytical still life of notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation seed feel 20, high detail"
+  },
+  {
+    "i": 20,
+    "cue": "荒れるとしても、何でも来る大荒れではなく、実績のある馬同士で順番が入れ替わるレース。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 21, high detail"
+  },
+  {
+    "i": 21,
+    "cue": "これが基本になります。3つ目は、人気と実績のズレです。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 22, high detail"
+  },
+  {
+    "i": 22,
+    "cue": "競馬で危険なのは、人気がある馬ではなく、",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 23, high detail"
+  },
+  {
+    "i": 23,
+    "cue": "実績以上に人気になっている馬です。反対に、G1で通用した実績があるのに、",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 24, high detail"
+  },
+  {
+    "i": 24,
+    "cue": "近走の着順などによって人気を落としている馬は、狙う価値があります。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 25, high detail"
+  },
+  {
+    "i": 25,
+    "cue": "この3つをまとめます。1番人気は、勝てていないが3着以内には残る。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 26, high detail"
+  },
+  {
+    "i": 26,
+    "cue": "定量G2なので、格下からの大逆転は少ない。狙うのは、実績に対して人気を落としている馬。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 27, high detail"
+  },
+  {
+    "i": 27,
+    "cue": "この条件から、今年の札幌記念は、大荒れではなく、1着が入れ替わる中波乱と判定します。",
+    "prompt": "dark teal cinematic data-lab atmosphere with subtle glowing analysis nodes, racing research mood, no readable text, no logos, 16:9 composition, edge-to-edge, variation seed feel 28, high detail"
+  },
+  {
+    "i": 28,
+    "cue": "ここからは、想定上位5頭を、ワイドで残す馬と切る馬に分けます。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 29, high detail"
+  },
+  {
+    "i": 29,
+    "cue": "まず、想定1番人気のアドマイヤテラ。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 30, high detail"
+  },
+  {
+    "i": 30,
+    "cue": "天皇賞・春3着。阪神大賞典1着。タイム指数もメンバー上位です。",
+    "prompt": "wide Japanese turf track curve under soft overcast sky, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 31, high detail"
+  },
+  {
+    "i": 31,
+    "cue": "能力だけを見れば、今回も中心候補です。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth of field, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 32, high detail"
+  },
+  {
+    "i": 32,
+    "cue": "ただし、近走の高い指数は、長距離で出したものです。今回は、札幌芝2000メートル。",
+    "prompt": "finish-line perspective on green turf with distant mountains, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 33, high detail"
+  },
+  {
+    "i": 33,
+    "cue": "2000メートル前後の近走重賞で、勝ち切る形をまだ示していません。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 34, high detail"
+  },
+  {
+    "i": 34,
+    "cue": "単勝2倍台で、勝つ馬として買うのは危険だと判断します。",
+    "prompt": "racehorses warming up on track, soft haze, cinematic sports photo, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 35, high detail"
+  },
+  {
+    "i": 35,
+    "cue": "しかし、ワイドなら話は別です。能力と安定性は高く、札幌記念の1番人気も、",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 36, high detail"
+  },
+  {
+    "i": 36,
+    "cue": "過去10年で3着以内率60パーセント。",
+    "prompt": "single thoroughbred cantering past camera on turf, elegant motion freeze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 37, high detail"
+  },
+  {
+    "i": 37,
+    "cue": "アドマイヤテラは、単勝では疑う。ワイドでは残す。この評価です。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 38, high detail"
+  },
+  {
+    "i": 38,
+    "cue": "続いて、想定2番人気のショウヘイ。アメリカジョッキークラブカップ1着。日本ダービー3着。",
+    "prompt": "athletic young thoroughbred galloping on turf at golden hour, sharp and talented, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 39, high detail"
+  },
+  {
+    "i": 39,
+    "cue": "前走は、今回と同じ2000メートルの大阪杯です。",
+    "prompt": "analytical still life of notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation seed feel 40, high detail"
+  },
+  {
+    "i": 40,
+    "cue": "定量G2で必要になる重賞実績があり、前走G1というローテーションも評価できます。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 41, high detail"
+  },
+  {
+    "i": 41,
+    "cue": "上がりの数字は、今回のメンバーで突出していません。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth of field, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 42, high detail"
+  },
+  {
+    "i": 42,
+    "cue": "そのため、絶対的な勝ち馬としては評価しません。",
+    "prompt": "finish-line perspective on green turf with distant mountains, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 43, high detail"
+  },
+  {
+    "i": 43,
+    "cue": "それでも、2000メートルへの接続と重賞実績を考えれば、",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 44, high detail"
+  },
+  {
+    "i": 44,
+    "cue": "ワイドでは切りにくい一頭です。ショウヘイは、単勝では中立。",
+    "prompt": "athletic young thoroughbred galloping on turf at golden hour, sharp and talented, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 45, high detail"
+  },
+  {
+    "i": 45,
+    "cue": "ワイドでは残す。この評価です。続いて、想定3番人気のシェイクユアハート。",
+    "prompt": "elegant dark bay thoroughbred in Japanese paddock, muted tense atmosphere, soft light, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 46, high detail"
+  },
+  {
+    "i": 46,
+    "cue": "金鯱賞1着があり、2000メートルの実績は評価できます。",
+    "prompt": "single thoroughbred cantering past camera on turf, elegant motion freeze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 47, high detail"
+  },
+  {
+    "i": 47,
+    "cue": "上がりの数字も、メンバー上位です。ただし、前走の宝塚記念は大敗。",
+    "prompt": "starting gate area atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 48, high detail"
+  },
+  {
+    "i": 48,
+    "cue": "今回のAI評価でも、勝ち切る馬ではなく、3着以内の候補という位置づけです。",
+    "prompt": "dark teal cinematic data-lab atmosphere with subtle glowing analysis nodes, racing research mood, no readable text, no logos, 16:9 composition, edge-to-edge, variation seed feel 49, high detail"
+  },
+  {
+    "i": 49,
+    "cue": "穴人気であれば、ワイドの相手として残せました。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 50, high detail"
+  },
+  {
+    "i": 50,
+    "cue": "しかし現在は、想定3番人気。3着候補の一頭を、3番人気で買うなら、",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 51, high detail"
+  },
+  {
+    "i": 51,
+    "cue": "もっと明確な安定材料が必要です。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth of field, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 52, high detail"
+  },
+  {
+    "i": 52,
+    "cue": "今回は人気と評価がほぼ釣り合っており、馬券的な妙味がありません。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 53, high detail"
+  },
+  {
+    "i": 53,
+    "cue": "シェイクユアハートは、能力を否定しません。",
+    "prompt": "elegant dark bay thoroughbred in Japanese paddock, muted tense atmosphere, soft light, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 54, high detail"
+  },
+  {
+    "i": 54,
+    "cue": "しかしワイドでは、基本的に切ります。続いて、想定4番人気のローシャムパーク。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 55, high detail"
+  },
+  {
+    "i": 55,
+    "cue": "この馬が、今回の本命です。大阪杯2着。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 56, high detail"
+  },
+  {
+    "i": 56,
+    "cue": "ブリーダーズカップターフ2着。芝G1で複数回、連対しています。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 57, high detail"
+  },
+  {
+    "i": 57,
+    "cue": "今回のメンバーでは、最高到達実績が一段上です。前走も海外G1。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 58, high detail"
+  },
+  {
+    "i": 58,
+    "cue": "札幌記念で評価したい格上ローテーションに該当します。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 59, high detail"
+  },
+  {
+    "i": 59,
+    "cue": "もちろん、不安もあります。現在7歳で、近走成績も安定していません。",
+    "prompt": "analytical still life of notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation seed feel 60, high detail"
+  },
+  {
+    "i": 60,
+    "cue": "速い上がりを毎回使える馬でもありません。そのため、最も安全な馬ではありません。",
+    "prompt": "wide Japanese turf track curve under soft overcast sky, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 61, high detail"
+  },
+  {
+    "i": 61,
+    "cue": "それでも、G1で通用した実績があり、想定4番人気の単勝10倍前後。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 62, high detail"
+  },
+  {
+    "i": 62,
+    "cue": "実績と人気を比べれば、今回の上位人気馬で最も買う価値があります。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 63, high detail"
+  },
+  {
+    "i": 63,
+    "cue": "ローシャムパークは、安全だから買う馬ではなく、",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 64, high detail"
+  },
+  {
+    "i": 64,
+    "cue": "凡走する危険を受け入れて、期待値を取りにいく馬です。",
+    "prompt": "racehorses warming up on track, soft haze, cinematic sports photo, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 65, high detail"
+  },
+  {
+    "i": 65,
+    "cue": "勝ち切る候補としても、ワイドの軸としても残します。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 66, high detail"
+  },
+  {
+    "i": 66,
+    "cue": "最後に、想定5番人気のサクラファレル。札幌芝2000メートルで勝った経験があり、",
+    "prompt": "young racehorse on soft northern turf with trees, hopeful underdog mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 67, high detail"
+  },
+  {
+    "i": 67,
+    "cue": "血統面にも評価できる材料があります。しかし、今回は定量G2です。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 68, high detail"
+  },
+  {
+    "i": 68,
+    "cue": "サクラファレルには、重賞勝ちがありません。",
+    "prompt": "young racehorse on soft northern turf with trees, hopeful underdog mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 69, high detail"
+  },
+  {
+    "i": 69,
+    "cue": "重賞での最高到達も、セントライト記念の掲示板までです。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 70, high detail"
+  },
+  {
+    "i": 70,
+    "cue": "今回は、G1連対馬や重賞勝ち馬と同じ58キロで戦います。",
+    "prompt": "prestigious graded stakes paddock atmosphere, classy thoroughbreds, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 71, high detail"
+  },
+  {
+    "i": 71,
+    "cue": "札幌適性。佐々木騎手。堀厩舎。こうした期待が、人気に含まれていると考えます。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 72, high detail"
+  },
+  {
+    "i": 72,
+    "cue": "しかし、ワイドで買うための実績の裏付けが足りません。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 73, high detail"
+  },
+  {
+    "i": 73,
+    "cue": "今回の上位5頭では、人気と最高到達実績の差が最も大きい馬です。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 74, high detail"
+  },
+  {
+    "i": 74,
+    "cue": "サクラファレルは、はっきり切ります。ここまでを整理します。ワイドで残す馬は、3頭です。",
+    "prompt": "young racehorse on soft northern turf with trees, hopeful underdog mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 75, high detail"
+  },
+  {
+    "i": 75,
+    "cue": "アドマイヤテラ。ショウヘイ。そして本命の、ローシャムパーク。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 76, high detail"
+  },
+  {
+    "i": 76,
+    "cue": "反対に、ワイドで切る馬は、シェイクユアハートと、サクラファレルです。",
+    "prompt": "elegant dark bay thoroughbred in Japanese paddock, muted tense atmosphere, soft light, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 77, high detail"
+  },
+  {
+    "i": 77,
+    "cue": "特にサクラファレルは、札幌適性だけで重賞実績の差を埋めるのは難しいと判断しました。",
+    "prompt": "young racehorse on soft northern turf with trees, hopeful underdog mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 78, high detail"
+  },
+  {
+    "i": 78,
+    "cue": "今年の札幌記念は、上位人気がすべて安全なのではありません。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 79, high detail"
+  },
+  {
+    "i": 79,
+    "cue": "また、人気薄が何でも来る大荒れでもありません。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 80, high detail"
+  },
+  {
+    "i": 80,
+    "cue": "1番人気のアドマイヤテラは、勝ち切りでは疑い、3着以内では残す。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 81, high detail"
+  },
+  {
+    "i": 81,
+    "cue": "想定4番人気のローシャムパークを、G1実績に対して人気を落としている馬として狙います。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 82, high detail"
+  },
+  {
+    "i": 82,
+    "cue": "1000円で買う場合の暫定プランです。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 83, high detail"
+  },
+  {
+    "i": 83,
+    "cue": "ワイド、ローシャムパークからアドマイヤテラに500円。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 84, high detail"
+  },
+  {
+    "i": 84,
+    "cue": "ローシャムパークからショウヘイに500円。この2点です。",
+    "prompt": "athletic young thoroughbred galloping on turf at golden hour, sharp and talented, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 85, high detail"
+  },
+  {
+    "i": 85,
+    "cue": "最も安全に見える、アドマイヤテラとショウヘイの組み合わせは、",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 86, high detail"
+  },
+  {
+    "i": 86,
+    "cue": "1番人気と2番人気の組み合わせです。的中しても、配当が低くなる可能性があります。",
+    "prompt": "favorite horse silhouette on turf with grandstand blur, pressure of expectations, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 87, high detail"
+  },
+  {
+    "i": 87,
+    "cue": "そのため今回は、ローシャムパークを必ず軸にします。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 88, high detail"
+  },
+  {
+    "i": 88,
+    "cue": "ローシャムパークが3着以内に入らなければ、このワイドは外れます。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 89, high detail"
+  },
+  {
+    "i": 89,
+    "cue": "しかし、買わない馬を明確にして、狙う馬の期待値を取るなら、この2点が、今回の結論です。",
+    "prompt": "analytical still life of notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation seed feel 90, high detail"
+  },
+  {
+    "i": 90,
+    "cue": "枠順が確定したあと、ローシャムパークの評価を維持するのか。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 91, high detail"
+  },
+  {
+    "i": 91,
+    "cue": "ワイド2点の金額を変更するのか。当日の馬場も含めて、最終判断を行います。",
+    "prompt": "close-up betting slips with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation seed feel 92, high detail"
+  },
+  {
+    "i": 92,
+    "cue": "変更がある場合は、LINEでも共有します。今回の結論です。",
+    "prompt": "finish-line perspective on green turf with distant mountains, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 93, high detail"
+  },
+  {
+    "i": 93,
+    "cue": "札幌記念2026は、大荒れではありません。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 94, high detail"
+  },
+  {
+    "i": 94,
+    "cue": "ただし、1番人気が勝ち切れない中波乱を想定します。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 95, high detail"
+  },
+  {
+    "i": 95,
+    "cue": "ワイドで切るのは、シェイクユアハートとサクラファレル。",
+    "prompt": "elegant dark bay thoroughbred in Japanese paddock, muted tense atmosphere, soft light, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 96, high detail"
+  },
+  {
+    "i": 96,
+    "cue": "残すのは、アドマイヤテラ、ショウヘイ、ローシャムパーク。",
+    "prompt": "powerful bay stayer thoroughbred standing composed near rail, long-distance racehorse presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 97, high detail"
+  },
+  {
+    "i": 97,
+    "cue": "本命は、ローシャムパークです。皆さんは、今年の札幌記念を、荒れると思いますか。",
+    "prompt": "hero chestnut thoroughbred under dramatic northern sky, value pick cinematic portrait, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 98, high detail"
+  },
+  {
+    "i": 98,
+    "cue": "それとも、荒れないと思いますか。ぜひコメント欄で教えてください。",
+    "prompt": "tight pack of racehorses turning for home on green turf, tense upset energy, motion suggestion, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 99, high detail"
+  },
+  {
+    "i": 99,
+    "cue": "最後までご覧いただき、ありがとうございました。",
+    "prompt": "quiet turf rail fading into soft northern evening mist, calm closing mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation seed feel 100, high detail"
+  }
+]
