@@ -1,0 +1,21 @@
+{
+  "race": "紫苑ステークス2026",
+  "ass_name": "shion",
+  "output_name": "shion_stakes_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "course_keywords": "中山|芝2000|紫苑|オークス|秋華賞|阪神",
+  "horses": {
+    "ドリームコア": "classy bay thoroughbred filly Oaks runner-up aura, Nakayama turf contender, photoreal, no text no logos",
+    "リアライズルミナス": "elegant gray-bay thoroughbred filly with luminous coat, Oaks close fourth, photoreal, no text no logos",
+    "ジッピーチューン": "sharp filly thoroughbred with Sakura Sho bronze presence, stretch question mark mood, photoreal, no text no logos",
+    "サムシングスイート": "summer one-win thoroughbred filly, sweet athletic presence, photoreal, no text no logos",
+    "アストリル": "Hakodate summer campaign thoroughbred filly, longshot aura, photoreal, no text no logos",
+    "ジワタネホ": "maiden winner thoroughbred filly, cooler grade doubt, photoreal, no text no logos",
+    "ナイスプレーアスク": "front-running thoroughbred filly sprint escape style, photoreal, no text no logos",
+    "ファムクラジューズ": "Tokyo 2000 turf winning thoroughbred filly, European bloodlines hint, photoreal, no text no logos",
+    "ベンヴェヌータ": "young undefeated thoroughbred filly Nakayama debutant aura, photoreal, no text no logos",
+    "マスターソアラ": "late-kick thoroughbred filly Queen Cup fourth, long layoff mood, photoreal, no text no logos",
+    "ロングトールサリー": "Oaks eleventh thoroughbred filly, soft daylight, photoreal, no text no logos"
+  }
+}
