@@ -1,0 +1,502 @@
+[
+  {
+    "i": 0,
+    "cue": "結論です。想定1番人気の、ロデオドライブは消しません。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 1, high detail"
+  },
+  {
+    "i": 1,
+    "cue": "ただし、勝ち切りは疑います。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 2, high detail"
+  },
+  {
+    "i": 2,
+    "cue": "今年の新潟記念は、大荒れではなく、1着候補が入れ替わる中波乱です。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 3, high detail"
+  },
+  {
+    "i": 3,
+    "cue": "今回のAI判定は、中波乱です。上位人気が、すべて崩れるとは見ていません。",
+    "prompt": "dark teal cinematic racing analysis desk with subtle glowing nodes, no readable text, no logos, 16:9 composition, edge-to-edge, variation 4, high detail"
+  },
+  {
+    "i": 4,
+    "cue": "しかし、1番人気が、そのまま勝ち切るとも見ていません。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 5, high detail"
+  },
+  {
+    "i": 5,
+    "cue": "理由は、レース条件の変更と、今年の上位人気が抱える、距離への不安です。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 6, high detail"
+  },
+  {
+    "i": 6,
+    "cue": "この動画では、荒れ方を見分ける3つのポイントと、",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 7, high detail"
+  },
+  {
+    "i": 7,
+    "cue": "最後にワイド2点まで出します。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 8, high detail"
+  },
+  {
+    "i": 8,
+    "cue": "1つ目は、ハンデ時代のイメージを、そのまま使わないことです。",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 9, high detail"
+  },
+  {
+    "i": 9,
+    "cue": "新潟記念は、長いあいだハンデ戦でした。軽い斤量の穴馬が、一気に逆転する。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 10, high detail"
+  },
+  {
+    "i": 10,
+    "cue": "そんな印象が、強く残っているレースです。",
+    "prompt": "finish-line perspective on green turf with distant trees, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 11, high detail"
+  },
+  {
+    "i": 11,
+    "cue": "しかし、去年から別定戦に変わりました。",
+    "prompt": "racehorses warming up on turf track, soft haze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 12, high detail"
+  },
+  {
+    "i": 12,
+    "cue": "斤量差だけで、能力差をひっくり返す形は、以前より起こりにくくなります。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 13, high detail"
+  },
+  {
+    "i": 13,
+    "cue": "そして今年は、現在11頭立ての想定です。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 14, high detail"
+  },
+  {
+    "i": 14,
+    "cue": "人気薄が何頭も馬券内へ入るより、上位馬の着順が入れ替わる形を、",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 15, high detail"
+  },
+  {
+    "i": 15,
+    "cue": "先に考えます。なお、過去10年の多くは、ハンデ戦です。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 16, high detail"
+  },
+  {
+    "i": 16,
+    "cue": "そのため過去データは、今年も同じ配当になる証明ではなく、",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 17, high detail"
+  },
+  {
+    "i": 17,
+    "cue": "各馬の勝ち切り条件を考える、補助材料として使います。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 18, high detail"
+  },
+  {
+    "i": 18,
+    "cue": "2つ目は、1番人気を、消すのか、残すのかです。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 19, high detail"
+  },
+  {
+    "i": 19,
+    "cue": "今年の想定1番人気は、ロデオドライブ。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 20, high detail"
+  },
+  {
+    "i": 20,
+    "cue": "NHKマイルカップの勝ち馬です。前走は、14番手から差し切りました。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 21, high detail"
+  },
+  {
+    "i": 21,
+    "cue": "能力の床は高く、直線で脚を使えることも、すでに証明しています。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 22, high detail"
+  },
+  {
+    "i": 22,
+    "cue": "だから、完全には消しません。ただし、芝2000メートルは、今回が初めてです。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 23, high detail"
+  },
+  {
+    "i": 23,
+    "cue": "マイルG1を勝ったことと、2000メートルで勝ち切れることは、",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 24, high detail"
+  },
+  {
+    "i": 24,
+    "cue": "同じではありません。今回の評価は、3着まで残す。",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 25, high detail"
+  },
+  {
+    "i": 25,
+    "cue": "しかし、1着固定にはしない。これが、ロデオドライブへの答えです。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 26, high detail"
+  },
+  {
+    "i": 26,
+    "cue": "3つ目は、勝ち馬候補から、評価を下げる条件です。",
+    "prompt": "finish-line perspective on green turf with distant trees, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 27, high detail"
+  },
+  {
+    "i": 27,
+    "cue": "過去10年では、7歳以上の勝ちはありません。逃げ切った馬も、いません。",
+    "prompt": "racehorses warming up on turf track, soft haze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 28, high detail"
+  },
+  {
+    "i": 28,
+    "cue": "ただし、これはハンデ時代を含むため、絶対条件にはしません。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 29, high detail"
+  },
+  {
+    "i": 29,
+    "cue": "今年の展開と、現在の能力を見たうえで、最後に使う減点材料です。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 30, high detail"
+  },
+  {
+    "i": 30,
+    "cue": "今年の7歳馬は、ジュンブロッサム。バレエマスター。ボーンディスウェイ。",
+    "prompt": "veteran handicap contender thoroughbred, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 31, high detail"
+  },
+  {
+    "i": 31,
+    "cue": "この3頭は、3着の可能性までは否定しません。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 32, high detail"
+  },
+  {
+    "i": 32,
+    "cue": "しかし今回は、勝ち馬候補と、ワイド2点から外します。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 33, high detail"
+  },
+  {
+    "i": 33,
+    "cue": "今年の人気構造には、はっきりしたズレがあります。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 34, high detail"
+  },
+  {
+    "i": 34,
+    "cue": "想定1番人気から3番人気は、3歳と4歳です。",
+    "prompt": "finish-line perspective on green turf with distant trees, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 35, high detail"
+  },
+  {
+    "i": 35,
+    "cue": "ロデオドライブ。ダノンシーマ。ゾロアストロ。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 36, high detail"
+  },
+  {
+    "i": 36,
+    "cue": "これから伸びる可能性がある馬が、人気の中心です。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 37, high detail"
+  },
+  {
+    "i": 37,
+    "cue": "一方で、G1実績を持つ馬は、想定4番人気以下にいます。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 38, high detail"
+  },
+  {
+    "i": 38,
+    "cue": "人気は若い馬。実績の床は、少し下の人気にいる。",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 39, high detail"
+  },
+  {
+    "i": 39,
+    "cue": "このズレが、今回の中波乱を生むポイントです。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 40, high detail"
+  },
+  {
+    "i": 40,
+    "cue": "ここからは、危険な人気馬です。まず、想定3番人気の、ゾロアストロ。",
+    "prompt": "young classic-generation thoroughbred, uncertain at longer trip, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 41, high detail"
+  },
+  {
+    "i": 41,
+    "cue": "きさらぎ賞の勝ち馬です。能力は否定しません。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 42, high detail"
+  },
+  {
+    "i": 42,
+    "cue": "ただし、芝2000メートルは、皐月賞12着の1回だけです。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 43, high detail"
+  },
+  {
+    "i": 43,
+    "cue": "1800メートルの勝利を、2000メートルの証明にはしません。",
+    "prompt": "racehorses warming up on turf track, soft haze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 44, high detail"
+  },
+  {
+    "i": 44,
+    "cue": "3番人気で買うなら、もう少し明確な、2000メートルの裏付けが必要です。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 45, high detail"
+  },
+  {
+    "i": 45,
+    "cue": "今回のワイドでは切ります。続いて、想定4番人気の、ドゥレッツァ。",
+    "prompt": "stayer thoroughbred returning from layoff, dramatic sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 46, high detail"
+  },
+  {
+    "i": 46,
+    "cue": "菊花賞の勝ち馬で、ジャパンカップ2着。",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 47, high detail"
+  },
+  {
+    "i": 47,
+    "cue": "実績は、今回のメンバーでも上位です。ただし、今回は怪我明けの初戦です。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 48, high detail"
+  },
+  {
+    "i": 48,
+    "cue": "前走8着から、長い間隔も空いています。能力で切るのではありません。",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 49, high detail"
+  },
+  {
+    "i": 49,
+    "cue": "今回の状態を判断できないため、ワイドでは様子見とします。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 50, high detail"
+  },
+  {
+    "i": 50,
+    "cue": "残すのは、3頭です。1頭目。想定2番人気の、ダノンシーマ。",
+    "prompt": "consistent middle-distance thoroughbred in peak form, athletic presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 51, high detail"
+  },
+  {
+    "i": 51,
+    "cue": "芝2000メートルは、3戦2勝。前走の目黒記念は、ハナ差の3着です。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 52, high detail"
+  },
+  {
+    "i": 52,
+    "cue": "今年のG2でも、続けて3着以内。まだ着外がありません。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 53, high detail"
+  },
+  {
+    "i": 53,
+    "cue": "G1実績では、古馬の実績馬に劣ります。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 54, high detail"
+  },
+  {
+    "i": 54,
+    "cue": "それでも、今回の距離で、現在の状態を再現できる可能性は、",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 55, high detail"
+  },
+  {
+    "i": 55,
+    "cue": "上位人気のなかで最も高いと見ます。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 56, high detail"
+  },
+  {
+    "i": 56,
+    "cue": "ワイドの軸です。勝ち馬候補にも残します。2頭目は、ロデオドライブ。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 57, high detail"
+  },
+  {
+    "i": 57,
+    "cue": "距離は未知ですが、マイルG1を差し切った脚と、能力の床を評価します。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 58, high detail"
+  },
+  {
+    "i": 58,
+    "cue": "頭では疑う。3着までは残す。",
+    "prompt": "finish-line perspective on green turf with distant trees, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 59, high detail"
+  },
+  {
+    "i": 59,
+    "cue": "3頭目は、想定7番人気の、アーバンシック。菊花賞の勝ち馬です。",
+    "prompt": "classy bay thoroughbred chrysanthemum winner aura, value contender, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 60, high detail"
+  },
+  {
+    "i": 60,
+    "cue": "天皇賞・秋では、芝2000メートルで、0.2秒差の5着。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 61, high detail"
+  },
+  {
+    "i": 61,
+    "cue": "2000メートルのG1で、通用する力を見せています。",
+    "prompt": "single thoroughbred cantering past camera on turf, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 62, high detail"
+  },
+  {
+    "i": 62,
+    "cue": "一方で、前走の金鯱賞は14着。",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 63, high detail"
+  },
+  {
+    "i": 63,
+    "cue": "鼻出血が続き、今回は休み明けです。安全な馬ではありません。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 64, high detail"
+  },
+  {
+    "i": 64,
+    "cue": "それでも、実績に対して、想定7番人気まで落ちています。",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 65, high detail"
+  },
+  {
+    "i": 65,
+    "cue": "凡走の危険を受け入れて、人気とのズレを取りにいく馬です。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 66, high detail"
+  },
+  {
+    "i": 66,
+    "cue": "次点も、短く確認します。ステレンボッシュは、秋華賞3着があります。",
+    "prompt": "elegant filly thoroughbred mid-pack runner, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 67, high detail"
+  },
+  {
+    "i": 67,
+    "cue": "中団で運べる点は、今回の形に合います。",
+    "prompt": "racehorses warming up on turf track, soft haze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 68, high detail"
+  },
+  {
+    "i": 68,
+    "cue": "ただし、大阪杯と札幌記念の、2000メートルでは崩れています。",
+    "prompt": "grandstand silhouette against cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 69, high detail"
+  },
+  {
+    "i": 69,
+    "cue": "今回はワイド3頭に入れず、枠順確定後に見直します。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 70, high detail"
+  },
+  {
+    "i": 70,
+    "cue": "チェルヴィニアは、秋華賞の勝ち馬です。",
+    "prompt": "filly graded-stakes winner, muted tension after tough race, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 71, high detail"
+  },
+  {
+    "i": 71,
+    "cue": "ただし、前走のヴィクトリアマイルは16着。",
+    "prompt": "analytical notebook and stopwatch near turf window light, no readable text, photoreal, 16:9 composition, edge-to-edge, variation 72, high detail"
+  },
+  {
+    "i": 72,
+    "cue": "速い上がりを、毎回使えるタイプでもありません。",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 73, high detail"
+  },
+  {
+    "i": 73,
+    "cue": "実績は評価しますが、今回のワイドでは切ります。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 74, high detail"
+  },
+  {
+    "i": 74,
+    "cue": "馬券です。今回選ぶのは、ワイド2点です。軸は、ダノンシーマ。1点目。",
+    "prompt": "consistent middle-distance thoroughbred in peak form, athletic presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 75, high detail"
+  },
+  {
+    "i": 75,
+    "cue": "ダノンシーマから、ロデオドライブへ500円。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 76, high detail"
+  },
+  {
+    "i": 76,
+    "cue": "ロデオドライブは、勝ち切りを疑っても、3着までは残します。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 77, high detail"
+  },
+  {
+    "i": 77,
+    "cue": "2点目。ダノンシーマから、アーバンシックへ500円。",
+    "prompt": "classy bay thoroughbred chrysanthemum winner aura, value contender, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 78, high detail"
+  },
+  {
+    "i": 78,
+    "cue": "こちらは、実績と人気のズレを狙います。",
+    "prompt": "starting gate atmosphere empty before race, tense calm, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 79, high detail"
+  },
+  {
+    "i": 79,
+    "cue": "アーバンシックが、再び崩れる可能性はあります。",
+    "prompt": "classy bay thoroughbred chrysanthemum winner aura, value contender, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 80, high detail"
+  },
+  {
+    "i": 80,
+    "cue": "それでも、1番人気と2番人気だけで、配当の薄い1点に寄せるのではなく、",
+    "prompt": "wide Japanese turf track curve under soft overcast, white rail, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 81, high detail"
+  },
+  {
+    "i": 81,
+    "cue": "中波乱の可能性を、もう1点に残します。",
+    "prompt": "jockey and thoroughbred walking to paddock, shallow depth, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 82, high detail"
+  },
+  {
+    "i": 82,
+    "cue": "枠順と確定オッズによっては、金額を変更します。",
+    "prompt": "quiet turf rail at dusk with soft fog, calm closing mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 83, high detail"
+  },
+  {
+    "i": 83,
+    "cue": "現時点の暫定案は、このワイド2点です。最終結論です。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 84, high detail"
+  },
+  {
+    "i": 84,
+    "cue": "今年の新潟記念は、大荒れではありません。",
+    "prompt": "Japanese turf racecourse wide establishing shot, long straight, cool daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 85, high detail"
+  },
+  {
+    "i": 85,
+    "cue": "上位人気が、すべて消える形でもありません。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 86, high detail"
+  },
+  {
+    "i": 86,
+    "cue": "ただし、想定1番人気の、ロデオドライブは、",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 87, high detail"
+  },
+  {
+    "i": 87,
+    "cue": "芝2000メートルが初めてです。消さない。しかし、頭では疑う。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 88, high detail"
+  },
+  {
+    "i": 88,
+    "cue": "勝ち馬候補は、ダノンシーマを上に取ります。",
+    "prompt": "consistent middle-distance thoroughbred in peak form, athletic presence, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 89, high detail"
+  },
+  {
+    "i": 89,
+    "cue": "穴側では、アーバンシックを残します。",
+    "prompt": "classy bay thoroughbred chrysanthemum winner aura, value contender, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 90, high detail"
+  },
+  {
+    "i": 90,
+    "cue": "ハンデ時代の万馬券イメージで、何でも買うレースではありません。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 91, high detail"
+  },
+  {
+    "i": 91,
+    "cue": "今年は、1番人気の勝ち切りを疑いながら、3着までは残す中波乱です。",
+    "prompt": "lonely thoroughbred walking away from grandstand under cloudy sky, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 92, high detail"
+  },
+  {
+    "i": 92,
+    "cue": "枠順が確定したあと、内枠の減点と、当日の馬場を確認します。",
+    "prompt": "quiet turf rail at dusk with soft fog, calm closing mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 93, high detail"
+  },
+  {
+    "i": 93,
+    "cue": "そのうえで、アーバンシックを残すのか。ステレンボッシュを加えるのか。",
+    "prompt": "elegant filly thoroughbred mid-pack runner, soft daylight, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 94, high detail"
+  },
+  {
+    "i": 94,
+    "cue": "ワイド2点の金額を変えるのか。最終判断を行います。",
+    "prompt": "close-up racing tickets with soft turf bokeh, warm decision mood, no readable numbers, photoreal, no logos, 16:9 composition, edge-to-edge, variation 95, high detail"
+  },
+  {
+    "i": 95,
+    "cue": "変更がある場合は、LINEで共有します。",
+    "prompt": "quiet turf rail at dusk with soft fog, calm closing mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 96, high detail"
+  },
+  {
+    "i": 96,
+    "cue": "概要欄から確認してください。最後に質問です。",
+    "prompt": "empty racecourse grandstand at blue hour, contemplative mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 97, high detail"
+  },
+  {
+    "i": 97,
+    "cue": "皆さんは、ロデオドライブを、切りますか。それとも、3着まで残しますか。",
+    "prompt": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 98, high detail"
+  },
+  {
+    "i": 98,
+    "cue": "コメント欄に、「切る」か、「残す」で教えてください。",
+    "prompt": "empty racecourse grandstand at blue hour, contemplative mood, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 99, high detail"
+  },
+  {
+    "i": 99,
+    "cue": "最後までご覧いただき、ありがとうございました。",
+    "prompt": "racehorses warming up on turf track, soft haze, photoreal, no text no logos, 16:9 composition, edge-to-edge, variation 100, high detail"
+  }
+]
