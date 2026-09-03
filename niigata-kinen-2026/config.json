@@ -1,0 +1,21 @@
+{
+  "race": "新潟記念2026",
+  "ass_name": "niigata",
+  "output_name": "niigata_kinen_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "course_keywords": "新潟|芝2000|外回り|新潟記念",
+  "horses": {
+    "ロデオドライブ": "talented young thoroughbred miler with explosive late kick, photoreal, no text no logos",
+    "ステレンボッシュ": "elegant filly thoroughbred mid-pack runner, soft daylight, photoreal, no text no logos",
+    "アーバンシック": "classy bay thoroughbred chrysanthemum winner aura, value contender, photoreal, no text no logos",
+    "ダノンシーマ": "consistent middle-distance thoroughbred in peak form, athletic presence, photoreal, no text no logos",
+    "ドゥレッツァ": "stayer thoroughbred returning from layoff, dramatic sky, photoreal, no text no logos",
+    "チェルヴィニア": "filly graded-stakes winner, muted tension after tough race, photoreal, no text no logos",
+    "ゾロアストロ": "young classic-generation thoroughbred, uncertain at longer trip, photoreal, no text no logos",
+    "サヴォーナ": "experienced turf thoroughbred near white rail, photoreal, no text no logos",
+    "ボーンディスウェイ": "veteran handicap contender thoroughbred, photoreal, no text no logos",
+    "バレエマスター": "course-smart thoroughbred on long straight, photoreal, no text no logos",
+    "ジュンブロッサム": "veteran seven-year-old thoroughbred, photoreal, no text no logos"
+  }
+}
