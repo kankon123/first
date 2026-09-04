@@ -1,0 +1,19 @@
+{
+  "race": "札幌2歳ステークス2026",
+  "ass_name": "sapporo2yo",
+  "output_name": "sapporo_2yo_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "course_keywords": "札幌|芝1800|2歳|洋芝|コスモス|中波乱|Cコース",
+  "horses": {
+    "ショウナンガレオン": "powerful bay two-year-old thoroughbred with commanding presence, Sapporo turf debutant aura, photoreal, no text no logos",
+    "デザートスピリット": "athletic chestnut two-year-old thoroughbred suited to firmer Sapporo turf, photoreal, no text no logos",
+    "テンカタイヘイ": "classy dark bay two-year-old thoroughbred after 1800m maiden win, photoreal, no text no logos",
+    "コスモハナミズキ": "sharp gray-bay two-year-old thoroughbred Cosmos Sho third, cooler doubt mood, photoreal, no text no logos",
+    "イドム": "young thoroughbred two-year-old with eager stride, photoreal, no text no logos",
+    "テングカゼ": "windy-atmosphere thoroughbred two-year-old, soft daylight, photoreal, no text no logos",
+    "ハヤブサカツオー": "speedy two-year-old thoroughbred falcon-like acceleration, photoreal, no text no logos",
+    "ランダムナンバー": "young thoroughbred two-year-old mid-pack runner, photoreal, no text no logos",
+    "ロゼハイスクール": "elegant filly two-year-old thoroughbred rose-toned coat hint, photoreal, no text no logos"
+  }
+}
