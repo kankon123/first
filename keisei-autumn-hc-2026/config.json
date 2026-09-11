@@ -1,0 +1,26 @@
+{
+  "race": "京成杯オータムハンデキャップ2026",
+  "ass_name": "keisei",
+  "output_name": "keisei_autumn_hc_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "course_keywords": "中山|芝1600|外回り|マイル|京成杯|オータム|ハンデ|中波乱",
+  "horses": {
+    "フォルテアンジェロ": "powerful bay thoroughbred miler with angelic late kick, Nakayama outer turf aura, photoreal, no text no logos",
+    "ファンダム": "consistent Nakayama miler thoroughbred that keeps placing, photoreal, no text no logos",
+    "エコロブルーム": "classy three-year-old G1-campaign thoroughbred carrying heavy weight, bloom of speed, photoreal, no text no logos",
+    "ディールメーカー": "athletic thoroughbred miler deal-making presence, photoreal, no text no logos",
+    "ヴァルキリーバース": "elegant filly thoroughbred miler with warrior aura, photoreal, no text no logos",
+    "ピコローズ": "sharp thoroughbred miler with rose-like coat sheen, photoreal, no text no logos",
+    "クランフォード": "experienced handicap thoroughbred after Sekiya second, photoreal, no text no logos",
+    "レザベーション": "solid turf miler thoroughbred, cooler grade, photoreal, no text no logos",
+    "ドロップオブライト": "light-framed thoroughbred miler catching late light, photoreal, no text no logos",
+    "ミナデオロ": "golden-toned thoroughbred miler contender, photoreal, no text no logos",
+    "リラボニート": "pretty bay thoroughbred miler, soft doubt mood, photoreal, no text no logos",
+    "テレサ": "filly thoroughbred miler, longshot presence, photoreal, no text no logos",
+    "メタルスピード": "metallic gray thoroughbred sprinter-miler, photoreal, no text no logos",
+    "クルゼイロドスル": "southern-hemisphere bloodline thoroughbred miler, photoreal, no text no logos",
+    "ラケマーダ": "veteran thoroughbred miler, cooler color grade, photoreal, no text no logos",
+    "サイルーン": "experienced turf thoroughbred near white rail, photoreal, no text no logos"
+  }
+}
