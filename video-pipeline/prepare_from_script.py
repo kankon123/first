@@ -10,7 +10,24 @@ import subprocess
 from pathlib import Path
 
 DEFAULT_VOICE = "ja-JP-KeitaNeural"
+DEFAULT_SPEED = 1.1  # future videos: slightly faster narration (subs/clips follow)
 TARGET_CUES = 100
+
+
+def atempo_filter(speed: float) -> str:
+    """Build ffmpeg atempo chain (each filter supports 0.5–2.0)."""
+    if speed <= 0:
+        raise ValueError(f"speed must be > 0, got {speed}")
+    parts: list[str] = []
+    s = float(speed)
+    while s > 2.0 + 1e-9:
+        parts.append("atempo=2.0")
+        s /= 2.0
+    while s < 0.5 - 1e-9:
+        parts.append("atempo=0.5")
+        s /= 0.5
+    parts.append(f"atempo={s:.6g}")
+    return ",".join(parts)
 
 
 def split_cues(text: str, target: int = TARGET_CUES) -> list[str]:
@@ -212,6 +229,12 @@ def main() -> None:
     ap.add_argument("--project", required=True, help="Race project directory")
     ap.add_argument("--ass-name", default="narration", help="ASS basename without extension")
     ap.add_argument("--voice", default=DEFAULT_VOICE)
+    ap.add_argument(
+        "--speed",
+        type=float,
+        default=None,
+        help=f"Narration speed multiplier (default {DEFAULT_SPEED}; override with config speed or --speed 1.0)",
+    )
     ap.add_argument("--skip-tts", action="store_true")
     args = ap.parse_args()
 
@@ -229,13 +252,22 @@ def main() -> None:
     course_hint = cfg.get("course_keywords", "新潟|芝2000|外回り")
     voice = cfg.get("voice", args.voice)
     ass_name = cfg.get("ass_name", args.ass_name)
+    # Priority: CLI --speed > config.json speed > DEFAULT_SPEED (1.1)
+    if args.speed is not None:
+        speed = float(args.speed)
+    elif "speed" in cfg:
+        speed = float(cfg["speed"])
+    else:
+        speed = float(DEFAULT_SPEED)
+    if speed <= 0:
+        raise SystemExit(f"invalid speed {speed}")
 
     cues = split_cues(text)
     (project / "script").mkdir(parents=True, exist_ok=True)
     (project / "script" / "cues.json").write_text(
         json.dumps(cues, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print("cues", len(cues), "chars", sum(len(c) for c in cues))
+    print("cues", len(cues), "chars", sum(len(c) for c in cues), "speed", speed)
 
     phrases = project / "audio" / "phrases"
     if not args.skip_tts:
@@ -244,7 +276,8 @@ def main() -> None:
     times = []
     t = 0.0
     for i, cue in enumerate(cues):
-        d = probe_dur(phrases / f"{i:03d}.mp3")
+        raw_d = probe_dur(phrases / f"{i:03d}.mp3")
+        d = raw_d / speed
         times.append({"i": i, "start": t, "end": t + d, "dur": d, "text": cue})
         t += d
 
@@ -254,7 +287,8 @@ def main() -> None:
         json.dumps(times, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     (audio / "duration.txt").write_text(str(t), encoding="utf-8")
-    print("TOTAL", round(t, 2))
+    (audio / "speed.txt").write_text(str(speed), encoding="utf-8")
+    print("TOTAL", round(t, 2), f"(raw/{speed:g})")
 
     lst = phrases / "list.txt"
     lst.write_text("".join(f"file '{i:03d}.mp3'\n" for i in range(len(cues))))
@@ -265,8 +299,24 @@ def main() -> None:
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
+    # Encode stereo + optional atempo so narration.mp3 matches scaled timeline
+    af = f"aresample=44100,aformat=channel_layouts=stereo,{atempo_filter(speed)}" if abs(speed - 1.0) > 1e-6 else "aresample=44100,aformat=channel_layouts=stereo"
     subprocess.check_call(
-        ["ffmpeg", "-y", "-i", str(raw), "-ar", "44100", "-ac", "2", "-b:a", "160k", str(final)],
+        [
+            "ffmpeg",
+            "-y",
+            "-i",
+            str(raw),
+            "-af",
+            af,
+            "-ar",
+            "44100",
+            "-ac",
+            "2",
+            "-b:a",
+            "160k",
+            str(final),
+        ],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )

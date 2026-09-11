@@ -7,6 +7,7 @@ Keeneland / 札幌 / 新潟 の実績を踏まえ、視聴フィードバック�
 | 項目 | 内容 |
 |------|------|
 | 声 | `ja-JP-KeitaNeural`（男性） |
+| 読み上げ速度 | **1.1倍が標準**（字幕・カット尺も同期） |
 | 字幕 | **フレーズ単位TTSの実尺**でASS同期 |
 | 画像 | 目標 **100枚** + **構図・時間帯・距離感の強制バリエーション** |
 | 動き | **静止画＋短いクロスフェード**（Ken Burns / zoompan はデフォルトOFF） |
@@ -18,14 +19,30 @@ Keeneland / 札幌 / 新潟 の実績を踏まえ、視聴フィードバック�
 
 1. **画像が似る** → 馬名一致だけでは同じ構図が繰り返されるため、カット番号で「寄り/引き/俯瞰/逆光/雨後」などを強制ローテーション
 2. **ズーム・パンがガクガク** → ffmpeg `zoompan` は低解像度補間でジャギーが出やすい。視聴を邪魔するため、**静止画＋クロスフェード**に変更
+3. **読み上げが少し遅い** → これから作る動画は `prepare_from_script.py` で **1.1倍**を標準適用（タイムライン/ASSも縮尺）
 
 ## 工程（台本到着後）
 
 1. 完成台本を `script/narration.txt` に貼る
-2. `python3 video-pipeline/prepare_from_script.py --project <race-dir>`
+2. `python3 video-pipeline/prepare_from_script.py --project <race-dir>`（自動で speed=1.1）
 3. `prompts/image_prompts.json` に沿って画像100枚生成 → `assets/scene_XXX.png`
 4. `bash video-pipeline/build_video.sh <race-dir> <ass-basename> [output]`
 5. PC確認 → commit / push / PR
+
+## 読み上げスピード
+
+**デフォルトは 1.1倍。** 優先順位: `--speed` CLI → `config.json` の `"speed"` → デフォルト 1.1
+
+```bash
+# 標準（1.1倍）
+python3 video-pipeline/prepare_from_script.py --project <race-dir>
+
+# 等速に戻す場合のみ
+python3 video-pipeline/prepare_from_script.py --project <race-dir> --speed 1.0
+
+# または config.json
+# { "speed": 1.0, ... }
+```
 
 ## 動きモード（任意）
 
@@ -38,19 +55,6 @@ MOTION=kenburns bash video-pipeline/build_video.sh <race-dir> <ass>
 ```
 
 `config.json` でも `"motion": "still_xfade"` を指定可。
-
-## 読み上げスピード（任意）
-
-完成後に少し速くする場合（例: 1.1倍）:
-
-```bash
-# narration を atempo、phrase_timeline / ASS を 1/speed で縮めてから再ビルド
-ffmpeg -y -i audio/narration.mp3 -filter:a "atempo=1.1" -ar 44100 -ac 2 -b:a 160k audio/narration_fast.mp3
-# timeline/ASS をスケールしたうえで
-bash video-pipeline/build_video.sh <race-dir> <ass>
-```
-
-映像カット尺もタイムラインに追従するため、字幕ずれは起きません。
 
 ## 画像プロンプトの多様性ルール
 
@@ -69,7 +73,7 @@ bash video-pipeline/build_video.sh <race-dir> <ass>
 ```
 <race-dir>/
   script/narration.txt
-  config.json               # horses / motion / course_keywords
+  config.json               # horses / motion / course_keywords / speed
   prompts/image_prompts.json
   assets/scene_XXX.png
   audio/...
@@ -81,3 +85,4 @@ bash video-pipeline/build_video.sh <race-dir> <ass>
 
 - モバイルのチャット内再生は不安定なことがある → PC確認
 - エンタメ／制作用。馬券は自己責任
+- **終わったレースの過去動画は作り直さない**（新規制作から 1.1 倍を適用）
