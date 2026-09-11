@@ -1,0 +1,27 @@
+{
+  "race": "チャレンジカップ2026",
+  "ass_name": "challenge",
+  "output_name": "challenge_cup_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "speed": 1.1,
+  "course_keywords": "阪神|芝2000|内回り|チャレンジカップ|ハンデ|中波乱",
+  "horses": {
+    "マテンロウゲイル": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos",
+    "ジョバンニ": "classy older thoroughbred miler-stayer, Kinshochi second aura, photoreal, no text no logos",
+    "タガノデュード": "powerful late-running thoroughbred, Osaka Hai fourth presence, photoreal, no text no logos",
+    "カラマティアノス": "consistent graded stakes thoroughbred, Nakayama Gold Cup winner aura, photoreal, no text no logos",
+    "グランヴィノス": "experienced Hanshin 2000m thoroughbred, Challenge Cup runner-up last year, photoreal, no text no logos",
+    "マリアイリダータ": "rising Duramente-line thoroughbred after record win, ascending form, photoreal, no text no logos",
+    "レーゼドラマ": "filly thoroughbred Flower Cup winner, value longshot aura, photoreal, no text no logos",
+    "ガイアメンテ": "solid turf thoroughbred place contender, photoreal, no text no logos",
+    "ピースワンデュック": "front-running thoroughbred with Hakodate third, photoreal, no text no logos",
+    "ジーティーダーリン": "pace-setting thoroughbred Hanshin 2000m escape win, photoreal, no text no logos",
+    "ジーティーアダマン": "pace-capable older thoroughbred, cooler grade, photoreal, no text no logos",
+    "ミッキーゴールド": "experienced turf thoroughbred near rail, photoreal, no text no logos",
+    "フィーリウス": "longshot thoroughbred, cooler color grade, photoreal, no text no logos",
+    "マテンロウスカイ": "veteran Matenro-line thoroughbred, soft daylight, photoreal, no text no logos",
+    "カネフラ": "longshot thoroughbred miler, photoreal, no text no logos",
+    "センツブラッド": "front-running thoroughbred around 1800m, photoreal, no text no logos"
+  }
+}
