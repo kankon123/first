@@ -1,0 +1,20 @@
+{
+  "race": "ローズステークス2026",
+  "ass_name": "rose",
+  "output_name": "rose_stakes_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "speed": 1.1,
+  "course_keywords": "阪神|芝1800|ローズ|オークス|波乱|秋華賞",
+  "horses": {
+    "モンローウォーク": "undefeated bay thoroughbred filly three-for-three, Hakodate 1800m aura, photoreal, no text no logos",
+    "エンネ": "classy filly thoroughbred Oaks seventh, Flora second presence, photoreal, no text no logos",
+    "スウィートハピネス": "powerful filly thoroughbred Oaks fifth by a nose, front-running stamina, photoreal, no text no logos",
+    "タイセイボーグ": "graded stakes winning thoroughbred filly Tulip Sho aura, Hanshin JF third, photoreal, no text no logos",
+    "レイクラシック": "elegant filly thoroughbred Oaks sixth close finish, photoreal, no text no logos",
+    "イクシード": "athletic filly thoroughbred Flower Cup bronze, Tokyo 1800m winner, photoreal, no text no logos",
+    "アンジュドジョワ": "Hanshin 1800m winning thoroughbred filly, soft daylight, photoreal, no text no logos",
+    "ミリタリータトゥー": "dark-coated thoroughbred filly contender, photoreal, no text no logos",
+    "ナムラコスモス": "young thoroughbred filly value contender, photoreal, no text no logos"
+  }
+}
