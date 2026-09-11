@@ -1,0 +1,27 @@
+{
+  "race": "セントライト記念2026",
+  "ass_name": "stlite",
+  "output_name": "st_lite_kinen_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "speed": 1.1,
+  "course_keywords": "中山|芝2200|外回り|セントライト|ダービー|中波乱|右回り",
+  "horses": {
+    "バステール": "classy bay thoroughbred Derby third and Yayoi Sho winner, Nakayama long-stretch aura, photoreal, no text no logos",
+    "ゴーイントゥスカイ": "powerful dark thoroughbred Aoba Sho winner Derby fourth, first right-handed question, photoreal, no text no logos",
+    "サノノグレーター": "athletic thoroughbred value contender with sharp workout aura, photoreal, no text no logos",
+    "ラージアンサンブル": "long-spurt thoroughbred stayer type, sustained kick, photoreal, no text no logos",
+    "サヴォアフェール": "rising summer-form thoroughbred miler-stayer, photoreal, no text no logos",
+    "アスクエジンバラ": "experienced classic-campaign thoroughbred, Hopeful third aura, photoreal, no text no logos",
+    "ウェイクフィールド": "inner-draw thoroughbred contender, soft daylight, photoreal, no text no logos",
+    "アウダーシア": "talented thoroughbred recovering form question, photoreal, no text no logos",
+    "バドリナート": "young thoroughbred needing another step up, photoreal, no text no logos",
+    "リッツパーティー": "inner-rail thoroughbred place candidate, photoreal, no text no logos",
+    "ジャスティンシカゴ": "consistent thoroughbred without standout kick, photoreal, no text no logos",
+    "ミリオンクラウン": "distance-unproven thoroughbred, cooler grade, photoreal, no text no logos",
+    "フウセン": "pace-capable thoroughbred lacking graded stamina, photoreal, no text no logos",
+    "ティラーノ": "longshot thoroughbred, cooler color grade, photoreal, no text no logos",
+    "エリプティクカーブ": "capable thoroughbred wide-draw concern, photoreal, no text no logos",
+    "ラディアントスター": "Kyoto Shimbun Hai bronze thoroughbred, outer-draw doubt, photoreal, no text no logos"
+  }
+}
