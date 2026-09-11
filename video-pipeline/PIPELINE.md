@@ -39,6 +39,19 @@ MOTION=kenburns bash video-pipeline/build_video.sh <race-dir> <ass>
 
 `config.json` でも `"motion": "still_xfade"` を指定可。
 
+## 読み上げスピード（任意）
+
+完成後に少し速くする場合（例: 1.1倍）:
+
+```bash
+# narration を atempo、phrase_timeline / ASS を 1/speed で縮めてから再ビルド
+ffmpeg -y -i audio/narration.mp3 -filter:a "atempo=1.1" -ar 44100 -ac 2 -b:a 160k audio/narration_fast.mp3
+# timeline/ASS をスケールしたうえで
+bash video-pipeline/build_video.sh <race-dir> <ass>
+```
+
+映像カット尺もタイムラインに追従するため、字幕ずれは起きません。
+
 ## 画像プロンプトの多様性ルール
 
 各カットは次を必ず変える:
