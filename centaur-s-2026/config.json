@@ -1,0 +1,16 @@
+{
+  "race": "セントウルS2026",
+  "ass_name": "centaur",
+  "output_name": "centaur_s_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "course_keywords": "阪神|芝1200|短距離|セントウル|中京|中波乱|開幕",
+  "horses": {
+    "ダイヤモンドノット": "powerful bay thoroughbred sprinter, diamond-hard presence, Hanshin turf aura, photoreal, no text no logos",
+    "フリッカージャブ": "sharp athletic thoroughbred sprinter with jab-like acceleration, photoreal, no text no logos",
+    "ピューロマジック": "elegant dark-coated thoroughbred sprinter with magical late surge, photoreal, no text no logos",
+    "レッドモンレーヴ": "fiery chestnut thoroughbred sprinter with dream-like finish, photoreal, no text no logos",
+    "ファストネットワーク": "veteran six-year-old thoroughbred sprinter, networked stride, cooler grade, photoreal, no text no logos",
+    "ママコチャ": "classy filly thoroughbred sprint contender, soft daylight, photoreal, no text no logos"
+  }
+}
