@@ -1,0 +1,24 @@
+{
+  "race": "産経賞オールカマー2026",
+  "ass_name": "allcomers",
+  "output_name": "all_comers_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "speed": 1.1,
+  "course_keywords": "中山|芝2200|外回り|オールカマー|産経賞|中波乱|右回り|急坂",
+  "horses": {
+    "コスモキュランダ": "athletic bay thoroughbred with Nakayama affinity, Arima and Satsuki runner-up aura, mid-pack to forward runner, photoreal, no text no logos",
+    "レガレイラ": "elite bay filly thoroughbred, defending All Comers winner, G1 Elizabeth and Arima aura, mid-pack surge style, photoreal, no text no logos",
+    "ジューンテイク": "powerful thoroughbred Kyoto Shimbun Hai and Kyoto Kinen winner, sustained kick over 2200m, outer gate, photoreal, no text no logos",
+    "キャントウェイト": "dark bay thoroughbred Noel Sho winner at Nakayama 2200m, late push from mid-pack, photoreal, no text no logos",
+    "エセルフリーダ": "elegant filly thoroughbred Nakayama Himba Stakes winner, can settle handy, photoreal, no text no logos",
+    "ワイドエンペラー": "grayish thoroughbred often racing from rear, cooler grade, photoreal, no text no logos",
+    "リビアングラス": "pace-capable thoroughbred Kyoto Kinen silver, inner draw, photoreal, no text no logos",
+    "ヴーレヴー": "front-running filly thoroughbred miler type stretching to 2200m, photoreal, no text no logos",
+    "アスクドゥポルテ": "rear-running thoroughbred mid-distance type, cooler grade, photoreal, no text no logos",
+    "パンジャ": "Nakayama Sunshine Stakes winner thoroughbred, late closer from deep, photoreal, no text no logos",
+    "メイショウゲキリン": "pace-setting thoroughbred returning from jumps to flat, photoreal, no text no logos",
+    "コスモブッドレア": "forward-running thoroughbred with recent fade concern, photoreal, no text no logos",
+    "セイウンプラチナ": "pace horse thoroughbred returning from long layoff, photoreal, no text no logos"
+  }
+}
