@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Droid Sans Fallback,38,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3,1,2,48,48,52,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:04.40,Default,,0,0,0,,札幌記念、八月十六日のG2。結論からいくよ。
+Dialogue: 0,0:00:04.40,0:00:08.20,Default,,0,0,0,,得しそうなのはショウヘイとグランディア。
+Dialogue: 0,0:00:08.20,0:00:14.00,Default,,0,0,0,,ショウヘイはG2実績に川田。札幌の洋芝二千で決め手が生きるタイプ。
+Dialogue: 0,0:00:14.00,0:00:19.80,Default,,0,0,0,,グランディアは新潟大賞典勝ちの勢い。差し脚が届く展開なら怖い。
+Dialogue: 0,0:00:19.80,0:00:24.60,Default,,0,0,0,,逆に、距離適性が噛み合わないステイ寄りは損しやすい。
+Dialogue: 0,0:00:24.60,0:00:32.00,Default,,0,0,0,,アドマイヤテラは凱旋門賞へのステップとして魅力だが、今回の二千で脚が余れば厳しい。
+Dialogue: 0,0:00:32.00,0:00:36.20,Default,,0,0,0,,洋芝適性ならホウオウビスケッツも無視できない。
+Dialogue: 0,0:00:36.20,0:00:40.40,Default,,0,0,0,,前が残る想定なら先行勢の粘りも点検して。
+Dialogue: 0,0:00:40.40,0:00:47.00,Default,,0,0,0,,枠順が出たら隊列を再確認。ここまで見た人は次で枠反映版を出すよ。
+Dialogue: 0,0:00:47.00,0:00:53.00,Default,,0,0,0,,馬券は自己責任で。いいねとフォローよろしく。
