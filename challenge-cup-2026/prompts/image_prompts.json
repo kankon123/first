@@ -1,0 +1,502 @@
+[
+  {
+    "i": 0,
+    "cue": "結論です。今年のチャレンジカップは、 中波乱です。唯一の3歳馬、マテンロウゲイル。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, extreme close-up detail, eye-level camera, soft morning light, clear crisp air, primary subject: empty turf and white rail only, distinct composition #1, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 001"
+  },
+  {
+    "i": 1,
+    "cue": "古馬に通用する根拠はあります。1着候補として残します。",
+    "prompt": "paddock tension before a graded race, photoreal, tight portrait framing, eye-level camera, soft morning light, clear crisp air, primary subject: paddock walk scene, distinct composition #2, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 002"
+  },
+  {
+    "i": 2,
+    "cue": "相手と3着は、 入れ替わる余地があります。9月12日、阪神11レース。チャレンジカップ、芝2000メートルのハンデ戦です。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, medium shot, low-angle hero shot, soft morning light, clear crisp air, primary subject: analysis desk with papers and monitor glow, distinct composition #3, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 003"
+  },
+  {
+    "i": 3,
+    "cue": "この動画で分かるのは、 荒れるのかどうか。どの想定人気馬を1着候補として残すのか。",
+    "prompt": "warm-up gallop atmosphere on turf, photoreal, full-body shot, low-angle hero shot, bright overcast daylight, clear crisp air, primary subject: grandstand architecture silhouette, distinct composition #4, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 004"
+  },
+  {
+    "i": 4,
+    "cue": "どの想定人気馬が危険なのか。どこから波乱が起きうるのか。そして、 今年ただ1頭の3歳馬、 マテンロウゲイルが、",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, wide establishing shot, high-angle looking down, bright overcast daylight, clear crisp air, primary subject: two horses overlapping in depth, distinct composition #5, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 005"
+  },
+  {
+    "i": 5,
+    "cue": " 古馬に通用する根拠はあるのか。今年の3歳馬は、 古馬混合のマイル路線では、",
+    "prompt": "distance emphasis on long turf corridor or short sprint chute, photoreal, very wide landscape framing, high-angle looking down, bright overcast daylight, humid summer haze, primary subject: finish-line geometry focus, distinct composition #6, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 006"
+  },
+  {
+    "i": 6,
+    "cue": " まだ目立った結果を残せていません。一方、直近の新潟記念。",
+    "prompt": "pre-race stillness near the gate area, photoreal, extreme close-up detail, side profile angle, golden hour warm side light, humid summer haze, primary subject: starting gate structure without readable text, distinct composition #7, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 007"
+  },
+  {
+    "i": 7,
+    "cue": "芝2000メートルでは、 3歳馬が古馬を相手に、 1着、2着を独占しました。",
+    "prompt": "distance emphasis on long turf corridor or short sprint chute, photoreal, tight portrait framing, side profile angle, golden hour warm side light, humid summer haze, primary subject: single thoroughbred centered, distinct composition #8, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 008"
+  },
+  {
+    "i": 8,
+    "cue": "これだけで、 今年の3歳世代は強い、 と決めることはできません。ただ、クラシック路線を走ってきた3歳馬が、 古馬に通用するのか。",
+    "prompt": "wet grass texture macro after watering, photoreal, medium shot, three-quarter angle, golden hour warm side light, humid summer haze, primary subject: crowd as soft bokeh only, distinct composition #9, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 009"
+  },
+  {
+    "i": 9,
+    "cue": "いま注目が集まる材料にはなっています。その中で今回、 古馬に挑む唯一の3歳馬が、",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, full-body shot, three-quarter angle, blue hour cool twilight, humid summer haze, primary subject: betting tickets in shallow depth of field, distinct composition #10, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 010"
+  },
+  {
+    "i": 10,
+    "cue": " 日本ダービー5着のマテンロウゲイルです。では、マテンロウゲイルは、 3歳というだけで買えるのか。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, wide establishing shot, over-the-rail viewpoint, blue hour cool twilight, after-rain wet turf sheen, primary subject: empty turf and white rail only, distinct composition #11, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 011"
+  },
+  {
+    "i": 11,
+    "cue": "今回は世代のイメージではなく、 この馬自身の実績、コース適性、斤量から判断します。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, very wide landscape framing, over-the-rail viewpoint, blue hour cool twilight, after-rain wet turf sheen, primary subject: paddock walk scene, distinct composition #12, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 012"
+  },
+  {
+    "i": 12,
+    "cue": "その前に、 予想はできても、 自分に合う馬券の買い方が分からない方へ。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, extreme close-up detail, eye-level camera, strong backlight with rim light, after-rain wet turf sheen, primary subject: analysis desk with papers and monitor glow, distinct composition #13, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 013"
+  },
+  {
+    "i": 13,
+    "cue": "無料の馬券タイプ診断を用意しています。20問に答えると、 あなたの買い方を16タイプから整理します。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, tight portrait framing, eye-level camera, strong backlight with rim light, after-rain wet turf sheen, primary subject: grandstand architecture silhouette, distinct composition #14, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 014"
+  },
+  {
+    "i": 14,
+    "cue": "概要欄のLINEから受け取れます。それでは、今年のチャレンジカップを見ていきます。",
+    "prompt": "Japanese turf racecourse establishing atmosphere matching the race venue, photoreal, medium shot, low-angle hero shot, strong backlight with rim light, after-rain wet turf sheen, primary subject: two horses overlapping in depth, distinct composition #15, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 015"
+  },
+  {
+    "i": 15,
+    "cue": "全馬を採点した結果からお伝えします。人気は、9月9日時点の想定です。",
+    "prompt": "single horse canter freeze with shallow depth, photoreal, full-body shot, low-angle hero shot, diffused cloudy stadium light, dusty paddock atmosphere, primary subject: finish-line geometry focus, distinct composition #16, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 016"
+  },
+  {
+    "i": 16,
+    "cue": "最終的な人気とは異なる可能性があります。このレースが問うものは、ひとつです。ハンデを背負った馬が、 阪神の芝2000メートルで、",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, wide establishing shot, high-angle looking down, diffused cloudy stadium light, dusty paddock atmosphere, primary subject: starting gate structure without readable text, distinct composition #17, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 017"
+  },
+  {
+    "i": 17,
+    "cue": " 本来の力を出せるかどうか。軽い斤量だから買う、ではありません。重い斤量だから消す、でもありません。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, very wide landscape framing, high-angle looking down, diffused cloudy stadium light, dusty paddock atmosphere, primary subject: single thoroughbred centered, distinct composition #18, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 018"
+  },
+  {
+    "i": 18,
+    "cue": "その斤量を背負っても、 本来の走りができるか。そこを見ていきます。内回りだから、逃げ先行馬を買う、ではありません。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, extreme close-up detail, side profile angle, soft morning light, dusty paddock atmosphere, primary subject: crowd as soft bokeh only, distinct composition #19, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 019"
+  },
+  {
+    "i": 19,
+    "cue": "評価するのは、好位を取る馬か、 3〜4コーナーで射程圏へ動ける馬か、 そのあと脚を持続できる馬です。",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, tight portrait framing, side profile angle, soft morning light, dusty paddock atmosphere, primary subject: betting tickets in shallow depth of field, distinct composition #20, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 020"
+  },
+  {
+    "i": 20,
+    "cue": "位置取りや、長く脚を使う力は、 その確認のための材料です。条件の切り方が大切です。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, medium shot, three-quarter angle, soft morning light, wind-blown mane suggestion, primary subject: empty turf and white rail only, distinct composition #21, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 021"
+  },
+  {
+    "i": 21,
+    "cue": "同じチャレンジカップでも、 2024年以前は12月の別定が中心でした。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, full-body shot, three-quarter angle, bright overcast daylight, wind-blown mane suggestion, primary subject: paddock walk scene, distinct composition #22, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 022"
+  },
+  {
+    "i": 22,
+    "cue": "2025年から、9月のハンデ戦に変わっています。去年と同じ条件は、まだ1回です。その1回を、毎年の法則にはしません。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, wide establishing shot, over-the-rail viewpoint, bright overcast daylight, wind-blown mane suggestion, primary subject: analysis desk with papers and monitor glow, distinct composition #23, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 023"
+  },
+  {
+    "i": 23,
+    "cue": "去年の事実だけ言います。1着は2番人気。2着は1番人気。",
+    "prompt": "warm-up gallop atmosphere on turf, photoreal, very wide landscape framing, over-the-rail viewpoint, bright overcast daylight, wind-blown mane suggestion, primary subject: grandstand architecture silhouette, distinct composition #24, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 024"
+  },
+  {
+    "i": 24,
+    "cue": "3着は4番人気。三連単は1万2千円台。6番人気以下は、3着以内に入っていません。",
+    "prompt": "architecture of a Japanese grandstand under cloud, photoreal, extreme close-up detail, eye-level camera, golden hour warm side light, wind-blown mane suggestion, primary subject: two horses overlapping in depth, distinct composition #25, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 025"
+  },
+  {
+    "i": 25,
+    "cue": "一方、12月の別定年を参考に見ると、 1着はだいたい5番人気まで。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, tight portrait framing, eye-level camera, golden hour warm side light, quiet empty-track stillness, primary subject: finish-line geometry focus, distinct composition #26, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 026"
+  },
+  {
+    "i": 26,
+    "cue": "二桁人気の好走は、ほとんどありません。つまり、 何でも来る大荒れ、という数字ではありません。",
+    "prompt": "cinematic racing analysis atmosphere with subtle data glow, dark teal charcoal palette, no readable text, medium shot, low-angle hero shot, golden hour warm side light, quiet empty-track stillness, primary subject: starting gate structure without readable text, distinct composition #27, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 027"
+  },
+  {
+    "i": 27,
+    "cue": "荒れるとしても、 能力上位の順番が入れ替わり、 相手と3着が動く形です。",
+    "prompt": "desk-side research mood with turf visible through window, no readable text, photoreal, full-body shot, low-angle hero shot, blue hour cool twilight, quiet empty-track stillness, primary subject: single thoroughbred centered, distinct composition #28, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 028"
+  },
+  {
+    "i": 28,
+    "cue": "今年の16頭は、 1頭だけが抜けている顔ぶれではありません。",
+    "prompt": "wet grass texture macro after watering, photoreal, wide establishing shot, high-angle looking down, blue hour cool twilight, quiet empty-track stillness, primary subject: crowd as soft bokeh only, distinct composition #29, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 029"
+  },
+  {
+    "i": 29,
+    "cue": "1着候補として最も高く評価したのはジョバンニ。その次がマテンロウゲイル。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, very wide landscape framing, high-angle looking down, blue hour cool twilight, quiet empty-track stillness, primary subject: betting tickets in shallow depth of field, distinct composition #30, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 030"
+  },
+  {
+    "i": 30,
+    "cue": "その差は小さく、 その後ろのタガノデュード、カラマティアノス、",
+    "prompt": "powerful late-running thoroughbred, Osaka Hai fourth presence, photoreal, no text no logos, extreme close-up detail, side profile angle, strong backlight with rim light, clear crisp air, primary subject: empty turf and white rail only, distinct composition #31, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 031"
+  },
+  {
+    "i": 31,
+    "cue": "グランヴィノスも、 すぐ近くにいます。58キロを背負う馬が、 能力上位に集まっています。",
+    "prompt": "experienced Hanshin 2000m thoroughbred, Challenge Cup runner-up last year, photoreal, no text no logos, tight portrait framing, side profile angle, strong backlight with rim light, clear crisp air, primary subject: paddock walk scene, distinct composition #32, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 032"
+  },
+  {
+    "i": 32,
+    "cue": "ジョバンニ、カラマティアノス、タガノデュードです。前に行ける馬も複数います。ジーティーダーリン。",
+    "prompt": "classy older thoroughbred miler-stayer, Kinshochi second aura, photoreal, no text no logos, medium shot, three-quarter angle, strong backlight with rim light, clear crisp air, primary subject: analysis desk with papers and monitor glow, distinct composition #33, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 033"
+  },
+  {
+    "i": 33,
+    "cue": "ピースワンデュック。レーゼドラマ。ジーティーアダマン。ミッキーゴールド。",
+    "prompt": "filly thoroughbred Flower Cup winner, value longshot aura, photoreal, no text no logos, full-body shot, three-quarter angle, diffused cloudy stadium light, clear crisp air, primary subject: grandstand architecture silhouette, distinct composition #34, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 034"
+  },
+  {
+    "i": 34,
+    "cue": "戦績上、先行争いが起きやすいメンバーです。これは、内回りだから逃げ先行を買う、ではありません。",
+    "prompt": "Japanese turf racecourse establishing atmosphere matching the race venue, photoreal, wide establishing shot, over-the-rail viewpoint, diffused cloudy stadium light, clear crisp air, primary subject: two horses overlapping in depth, distinct composition #35, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 035"
+  },
+  {
+    "i": 35,
+    "cue": "評価するのは、好位を取れるか、 3〜4コーナーで射程圏へ動けるか、",
+    "prompt": "single horse canter freeze with shallow depth, photoreal, very wide landscape framing, over-the-rail viewpoint, diffused cloudy stadium light, humid summer haze, primary subject: finish-line geometry focus, distinct composition #36, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 036"
+  },
+  {
+    "i": 36,
+    "cue": " そのあと脚を持続できるかです。展開が分かれると、 相手と3着は動きやすい。",
+    "prompt": "pre-race stillness near the gate area, photoreal, extreme close-up detail, eye-level camera, soft morning light, humid summer haze, primary subject: starting gate structure without readable text, distinct composition #37, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 037"
+  },
+  {
+    "i": 37,
+    "cue": "これが中波乱の土台です。ここで、タガノデュードだけ先に分けます。",
+    "prompt": "powerful late-running thoroughbred, Osaka Hai fourth presence, photoreal, no text no logos, tight portrait framing, eye-level camera, soft morning light, humid summer haze, primary subject: single thoroughbred centered, distinct composition #38, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 038"
+  },
+  {
+    "i": 38,
+    "cue": "勝ち切る力では、上位です。1着候補としては3番目。一方、3着以内の安定では、 大きく下がります。",
+    "prompt": "wet grass texture macro after watering, photoreal, medium shot, low-angle hero shot, soft morning light, humid summer haze, primary subject: crowd as soft bokeh only, distinct composition #39, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 039"
+  },
+  {
+    "i": 39,
+    "cue": "9番目です。近走は後方からの競馬が多い。阪神の内回りで届かない不安があります。",
+    "prompt": "Japanese turf racecourse establishing atmosphere matching the race venue, photoreal, full-body shot, low-angle hero shot, bright overcast daylight, humid summer haze, primary subject: betting tickets in shallow depth of field, distinct composition #40, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 040"
+  },
+  {
+    "i": 40,
+    "cue": "能力が高いことと、 毎回3着以内に残ることは、別です。",
+    "prompt": "Japanese turf track geometry and rail lines, photoreal, wide establishing shot, high-angle looking down, bright overcast daylight, after-rain wet turf sheen, primary subject: empty turf and white rail only, distinct composition #41, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 041"
+  },
+  {
+    "i": 41,
+    "cue": "残す側です。ジョバンニは、1着候補として残します。金鯱賞2着。小倉記念2着。",
+    "prompt": "classy older thoroughbred miler-stayer, Kinshochi second aura, photoreal, no text no logos, very wide landscape framing, high-angle looking down, bright overcast daylight, after-rain wet turf sheen, primary subject: paddock walk scene, distinct composition #42, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 042"
+  },
+  {
+    "i": 42,
+    "cue": "阪神の2000メートル、若葉ステークスも勝っています。今回は58キロ。重賞の勝ち鞍はありません。そこは不安です。",
+    "prompt": "distance emphasis on long turf corridor or short sprint chute, photoreal, extreme close-up detail, side profile angle, golden hour warm side light, after-rain wet turf sheen, primary subject: analysis desk with papers and monitor glow, distinct composition #43, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 043"
+  },
+  {
+    "i": 43,
+    "cue": "ただし、小倉記念は57.5キロで2着があります。1番人気想定だから残すのではありません。",
+    "prompt": "warm-up gallop atmosphere on turf, photoreal, tight portrait framing, side profile angle, golden hour warm side light, after-rain wet turf sheen, primary subject: grandstand architecture silhouette, distinct composition #44, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 044"
+  },
+  {
+    "i": 44,
+    "cue": "2000メートルの内容が、今回いちばん厚いからです。そして、今回のタイトルにも入れた、 唯一の3歳馬、マテンロウゲイルです。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, medium shot, three-quarter angle, golden hour warm side light, after-rain wet turf sheen, primary subject: two horses overlapping in depth, distinct composition #45, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 045"
+  },
+  {
+    "i": 45,
+    "cue": "結論は、古馬に通用する根拠があります。1着候補として残します。根拠は、3つです。",
+    "prompt": "cinematic racing analysis atmosphere with subtle data glow, dark teal charcoal palette, no readable text, full-body shot, three-quarter angle, blue hour cool twilight, dusty paddock atmosphere, primary subject: finish-line geometry focus, distinct composition #46, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 046"
+  },
+  {
+    "i": 46,
+    "cue": "ひとつ目は、日本ダービー5着。勝ち馬から、わずか0.3秒差でした。世代全体が強いと決めつけるのではなく、 この馬自身が、",
+    "prompt": "pre-race stillness near the gate area, photoreal, wide establishing shot, over-the-rail viewpoint, blue hour cool twilight, dusty paddock atmosphere, primary subject: starting gate structure without readable text, distinct composition #47, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 047"
+  },
+  {
+    "i": 47,
+    "cue": "同世代の頂点に近いところで走った事実を評価します。ふたつ目は、阪神の若葉ステークス勝ち。",
+    "prompt": "Japanese turf racecourse establishing atmosphere matching the race venue, photoreal, very wide landscape framing, over-the-rail viewpoint, blue hour cool twilight, dusty paddock atmosphere, primary subject: single thoroughbred centered, distinct composition #48, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 048"
+  },
+  {
+    "i": 48,
+    "cue": "今回と同じ、阪神の芝2000メートルで、 すでに結果を出しています。",
+    "prompt": "distance emphasis on long turf corridor or short sprint chute, photoreal, extreme close-up detail, eye-level camera, strong backlight with rim light, dusty paddock atmosphere, primary subject: crowd as soft bokeh only, distinct composition #49, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 049"
+  },
+  {
+    "i": 49,
+    "cue": "3つ目は、54キロです。ジョバンニ、カラマティアノス、タガノデュードは58キロ。",
+    "prompt": "classy older thoroughbred miler-stayer, Kinshochi second aura, photoreal, no text no logos, tight portrait framing, eye-level camera, strong backlight with rim light, dusty paddock atmosphere, primary subject: betting tickets in shallow depth of field, distinct composition #50, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 050"
+  },
+  {
+    "i": 50,
+    "cue": "能力だけではなく、 斤量に耐えて出力を出せるかを見る今回、",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, medium shot, low-angle hero shot, strong backlight with rim light, wind-blown mane suggestion, primary subject: empty turf and white rail only, distinct composition #51, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 051"
+  },
+  {
+    "i": 51,
+    "cue": " この4キロ差は無視できません。結論として、マテンロウゲイルは買えます。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, full-body shot, low-angle hero shot, diffused cloudy stadium light, wind-blown mane suggestion, primary subject: paddock walk scene, distinct composition #52, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 052"
+  },
+  {
+    "i": 52,
+    "cue": "1着候補として残します。能力評価はジョバンニに次ぐ2番目です。",
+    "prompt": "classy older thoroughbred miler-stayer, Kinshochi second aura, photoreal, no text no logos, wide establishing shot, high-angle looking down, diffused cloudy stadium light, wind-blown mane suggestion, primary subject: analysis desk with papers and monitor glow, distinct composition #53, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 053"
+  },
+  {
+    "i": 53,
+    "cue": "不安ははっきりしています。古馬相手の重賞は、まだ走っていません。3歳の内容を、古馬戦の勝ち切りにそのまま置きません。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, very wide landscape framing, high-angle looking down, diffused cloudy stadium light, wind-blown mane suggestion, primary subject: grandstand architecture silhouette, distinct composition #54, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 054"
+  },
+  {
+    "i": 54,
+    "cue": "古馬に通用する根拠はある。ただし、古馬相手に通用した実績はまだない。",
+    "prompt": "architecture of a Japanese grandstand under cloud, photoreal, extreme close-up detail, side profile angle, soft morning light, wind-blown mane suggestion, primary subject: two horses overlapping in depth, distinct composition #55, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 055"
+  },
+  {
+    "i": 55,
+    "cue": "この2つを分けて、 残しますが、過信はしません。マリアイリダータは、 2000メートルで3連勝中です。",
+    "prompt": "rising Duramente-line thoroughbred after record win, ascending form, photoreal, no text no logos, tight portrait framing, side profile angle, soft morning light, quiet empty-track stillness, primary subject: finish-line geometry focus, distinct composition #56, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 056"
+  },
+  {
+    "i": 56,
+    "cue": "前走は3勝クラスを、 0.8秒差のレコードで勝ちました。初重賞のため、 重賞で通用する格はまだ確認できていません。",
+    "prompt": "pre-race stillness near the gate area, photoreal, medium shot, three-quarter angle, soft morning light, quiet empty-track stillness, primary subject: starting gate structure without readable text, distinct composition #57, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 057"
+  },
+  {
+    "i": 57,
+    "cue": "しかし、それは能力が足りないという意味ではありません。父ドゥラメンテ、母父オルフェーヴル。",
+    "prompt": "desk-side research mood with turf visible through window, no readable text, photoreal, full-body shot, three-quarter angle, bright overcast daylight, quiet empty-track stillness, primary subject: single thoroughbred centered, distinct composition #58, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 058"
+  },
+  {
+    "i": 58,
+    "cue": "全兄にはホープフルステークスを勝った ドゥラエレーデがいます。血統にも、さらに上へ進む余地があります。",
+    "prompt": "wet grass texture macro after watering, photoreal, wide establishing shot, over-the-rail viewpoint, bright overcast daylight, quiet empty-track stillness, primary subject: crowd as soft bokeh only, distinct composition #59, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 059"
+  },
+  {
+    "i": 59,
+    "cue": "レコード勝ち後の反動は問題なく、 前走後も順調とされています。",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, very wide landscape framing, over-the-rail viewpoint, bright overcast daylight, quiet empty-track stillness, primary subject: betting tickets in shallow depth of field, distinct composition #60, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 060"
+  },
+  {
+    "i": 60,
+    "cue": "不安は気性と長距離輸送、 そして初めての重賞で流れが強くなった場合です。",
+    "prompt": "distance emphasis on long turf corridor or short sprint chute, photoreal, extreme close-up detail, eye-level camera, golden hour warm side light, clear crisp air, primary subject: empty turf and white rail only, distinct composition #61, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 061"
+  },
+  {
+    "i": 61,
+    "cue": "想定上位人気でも消す馬ではありません。上限をまだ決められない馬として残します。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, tight portrait framing, eye-level camera, golden hour warm side light, clear crisp air, primary subject: paddock walk scene, distinct composition #62, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 062"
+  },
+  {
+    "i": 62,
+    "cue": "カラマティアノスは、相手候補として残します。中山金杯を勝ち、中山記念2着。3着以内の評価は3番目です。",
+    "prompt": "consistent graded stakes thoroughbred, Nakayama Gold Cup winner aura, photoreal, no text no logos, medium shot, low-angle hero shot, golden hour warm side light, clear crisp air, primary subject: analysis desk with papers and monitor glow, distinct composition #63, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 063"
+  },
+  {
+    "i": 63,
+    "cue": "今回は58キロ。前走の七夕賞は7着。ただしあのレースは前半が速く、 その1走だけで力を落としたとは言えません。",
+    "prompt": "warm-up gallop atmosphere on turf, photoreal, full-body shot, low-angle hero shot, blue hour cool twilight, clear crisp air, primary subject: grandstand architecture silhouette, distinct composition #64, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 064"
+  },
+  {
+    "i": 64,
+    "cue": "グランヴィノスは、去年のこのレース2着です。同じ阪神の2000メートルで、56キロ。",
+    "prompt": "experienced Hanshin 2000m thoroughbred, Challenge Cup runner-up last year, photoreal, no text no logos, wide establishing shot, high-angle looking down, blue hour cool twilight, clear crisp air, primary subject: two horses overlapping in depth, distinct composition #65, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 065"
+  },
+  {
+    "i": 65,
+    "cue": "1着候補としては5番目で見ています。ただし、およそ40週の休みがあります。",
+    "prompt": "single horse canter freeze with shallow depth, photoreal, very wide landscape framing, high-angle looking down, blue hour cool twilight, humid summer haze, primary subject: finish-line geometry focus, distinct composition #66, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 066"
+  },
+  {
+    "i": 66,
+    "cue": "コース適性は認めます。いまの状態は、不確定です。相手候補として見るなら、休み明けを前提にします。",
+    "prompt": "pre-race stillness near the gate area, photoreal, extreme close-up detail, side profile angle, strong backlight with rim light, humid summer haze, primary subject: starting gate structure without readable text, distinct composition #67, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 067"
+  },
+  {
+    "i": 67,
+    "cue": "危険は、能力が足りない、という意味だけではありません。想定人気の高さに対して、 不安が大きい馬です。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, tight portrait framing, side profile angle, strong backlight with rim light, humid summer haze, primary subject: single thoroughbred centered, distinct composition #68, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 068"
+  },
+  {
+    "i": 68,
+    "cue": "マリアイリダータは、ここに置きません。底を見せていない上昇馬として、残す側です。残るのは、ジーティーアダマンです。6番人気想定。",
+    "prompt": "rising Duramente-line thoroughbred after record win, ascending form, photoreal, no text no logos, medium shot, three-quarter angle, strong backlight with rim light, humid summer haze, primary subject: crowd as soft bokeh only, distinct composition #69, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 069"
+  },
+  {
+    "i": 69,
+    "cue": "難波ステークス勝ち、飛鳥ステークス2着。小倉記念は6着。能力評価は、1着でも3着以内でも11番目です。",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, full-body shot, three-quarter angle, diffused cloudy stadium light, humid summer haze, primary subject: betting tickets in shallow depth of field, distinct composition #70, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 070"
+  },
+  {
+    "i": 70,
+    "cue": "先行はできます。ただし、この人気帯で厚く見る材料は薄い。",
+    "prompt": "Japanese turf track geometry and rail lines, photoreal, wide establishing shot, over-the-rail viewpoint, diffused cloudy stadium light, after-rain wet turf sheen, primary subject: empty turf and white rail only, distinct composition #71, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 071"
+  },
+  {
+    "i": 71,
+    "cue": "今回は評価を上げにくいです。タガノデュードは、 能力が足りない馬ではありません。",
+    "prompt": "powerful late-running thoroughbred, Osaka Hai fourth presence, photoreal, no text no logos, very wide landscape framing, over-the-rail viewpoint, diffused cloudy stadium light, after-rain wet turf sheen, primary subject: paddock walk scene, distinct composition #72, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 072"
+  },
+  {
+    "i": 72,
+    "cue": "大阪杯は4着で、勝ち馬とは0.3秒差。小倉大賞典も勝っています。勝ち切るだけの力はあります。",
+    "prompt": "finish-straight perspective with distant trees, photoreal, extreme close-up detail, eye-level camera, soft morning light, after-rain wet turf sheen, primary subject: analysis desk with papers and monitor glow, distinct composition #73, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 073"
+  },
+  {
+    "i": 73,
+    "cue": "ただし、今回は後方から届かず、 馬券圏外に終わる可能性もあります。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, tight portrait framing, eye-level camera, soft morning light, after-rain wet turf sheen, primary subject: grandstand architecture silhouette, distinct composition #74, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 074"
+  },
+  {
+    "i": 74,
+    "cue": "つまり、安定して3着以内に残る馬ではなく、 ピンかパーに近いタイプです。",
+    "prompt": "architecture of a Japanese grandstand under cloud, photoreal, medium shot, low-angle hero shot, soft morning light, after-rain wet turf sheen, primary subject: two horses overlapping in depth, distinct composition #75, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 075"
+  },
+  {
+    "i": 75,
+    "cue": "頭まである馬としては警戒しますが、 三連複の軸にはしません。",
+    "prompt": "single horse canter freeze with shallow depth, photoreal, full-body shot, low-angle hero shot, bright overcast daylight, dusty paddock atmosphere, primary subject: finish-line geometry focus, distinct composition #76, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 076"
+  },
+  {
+    "i": 76,
+    "cue": "この馬が馬券圏外に落ちれば、 相手と3着が入れ替わり、 中波乱になる可能性があります。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, wide establishing shot, high-angle looking down, bright overcast daylight, dusty paddock atmosphere, primary subject: starting gate structure without readable text, distinct composition #77, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 077"
+  },
+  {
+    "i": 77,
+    "cue": "次は波乱を起こしうる馬。穴馬について。中心はレーゼドラマです。",
+    "prompt": "filly thoroughbred Flower Cup winner, value longshot aura, photoreal, no text no logos, very wide landscape framing, high-angle looking down, bright overcast daylight, dusty paddock atmosphere, primary subject: single thoroughbred centered, distinct composition #78, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 078"
+  },
+  {
+    "i": 78,
+    "cue": "現在13番人気想定。フラワーカップ勝ち。小倉記念3着、0.2秒差。",
+    "prompt": "wet grass texture macro after watering, photoreal, extreme close-up detail, side profile angle, golden hour warm side light, dusty paddock atmosphere, primary subject: crowd as soft bokeh only, distinct composition #79, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 079"
+  },
+  {
+    "i": 79,
+    "cue": "1着候補としては6番目。3着以内では5番目です。人気より、評価がかなり高い。先行して残る内容があります。",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, tight portrait framing, side profile angle, golden hour warm side light, dusty paddock atmosphere, primary subject: betting tickets in shallow depth of field, distinct composition #80, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 080"
+  },
+  {
+    "i": 80,
+    "cue": "不安は、前が競られたときです。先行が複数いると、楽には運べません。",
+    "prompt": "Japanese turf track geometry and rail lines, photoreal, medium shot, three-quarter angle, golden hour warm side light, wind-blown mane suggestion, primary subject: empty turf and white rail only, distinct composition #81, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 081"
+  },
+  {
+    "i": 81,
+    "cue": "それでも、現在の想定人気に対して当チャンネルのAI評価は高いです。",
+    "prompt": "cinematic racing analysis atmosphere with subtle data glow, dark teal charcoal palette, no readable text, full-body shot, three-quarter angle, blue hour cool twilight, wind-blown mane suggestion, primary subject: paddock walk scene, distinct composition #82, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 082"
+  },
+  {
+    "i": 82,
+    "cue": "次にガイアメンテです。7番人気想定。都大路ステークス勝ち。福島民報杯2着。小倉記念4着。",
+    "prompt": "solid turf thoroughbred place contender, photoreal, no text no logos, wide establishing shot, over-the-rail viewpoint, blue hour cool twilight, wind-blown mane suggestion, primary subject: analysis desk with papers and monitor glow, distinct composition #83, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 083"
+  },
+  {
+    "i": 83,
+    "cue": "3着以内の評価は4番目です。勝ち切りより、馬券内に残る形です。武豊騎手の騎乗。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, very wide landscape framing, over-the-rail viewpoint, blue hour cool twilight, wind-blown mane suggestion, primary subject: grandstand architecture silhouette, distinct composition #84, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 084"
+  },
+  {
+    "i": 84,
+    "cue": "相手候補として、人気以上に見ます。ピースワンデュックは、函館記念3着0.1秒差があります。",
+    "prompt": "front-running thoroughbred with Hakodate third, photoreal, no text no logos, extreme close-up detail, eye-level camera, strong backlight with rim light, wind-blown mane suggestion, primary subject: two horses overlapping in depth, distinct composition #85, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 085"
+  },
+  {
+    "i": 85,
+    "cue": "先行力はある。ただし前走以前に、競られて失速したこともあります。",
+    "prompt": "single horse canter freeze with shallow depth, photoreal, tight portrait framing, eye-level camera, strong backlight with rim light, quiet empty-track stillness, primary subject: finish-line geometry focus, distinct composition #86, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 086"
+  },
+  {
+    "i": 86,
+    "cue": "穴馬候補の次点です。ジーティーダーリンは、 今年の垂水ステークスを、",
+    "prompt": "pace-setting thoroughbred Hanshin 2000m escape win, photoreal, no text no logos, medium shot, low-angle hero shot, strong backlight with rim light, quiet empty-track stillness, primary subject: starting gate structure without readable text, distinct composition #87, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 087"
+  },
+  {
+    "i": 87,
+    "cue": " 阪神の2000メートルで逃げ切りました。重賞の実績はありません。スローで逃げる形以外は、まだ弱い。",
+    "prompt": "isolated thoroughbred mood of doubt, cooler color grade, photoreal, full-body shot, low-angle hero shot, diffused cloudy stadium light, quiet empty-track stillness, primary subject: single thoroughbred centered, distinct composition #88, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 088"
+  },
+  {
+    "i": 88,
+    "cue": "1着候補にはしません。ここは短くします。フィーリウス。マテンロウスカイ。カネフラ。この3頭は、能力評価が大きく下がります。",
+    "prompt": "longshot thoroughbred, cooler color grade, photoreal, no text no logos, wide establishing shot, high-angle looking down, diffused cloudy stadium light, quiet empty-track stillness, primary subject: crowd as soft bokeh only, distinct composition #89, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 089"
+  },
+  {
+    "i": 89,
+    "cue": "去年までの参考でも、 二桁人気の好走はほとんどありません。穴の1着候補にはしません。相手からも、優先しては見ません。",
+    "prompt": "shadow of a horse across the rail at dusk, photoreal, very wide landscape framing, high-angle looking down, diffused cloudy stadium light, quiet empty-track stillness, primary subject: betting tickets in shallow depth of field, distinct composition #90, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 090"
+  },
+  {
+    "i": 90,
+    "cue": "ミッキーゴールドとセンツブラッドは、 先行や1800メートルの内容はあります。",
+    "prompt": "experienced turf thoroughbred near rail, photoreal, no text no logos, extreme close-up detail, side profile angle, soft morning light, clear crisp air, primary subject: empty turf and white rail only, distinct composition #91, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 091"
+  },
+  {
+    "i": 91,
+    "cue": "ただし今回の2000メートルハンデで、 評価を大きく上げる材料は足りません。",
+    "prompt": "symbolic weight-and-condition metaphor via empty saddle cloth area and rail geometry, no readable text, photoreal, tight portrait framing, side profile angle, soft morning light, clear crisp air, primary subject: paddock walk scene, distinct composition #92, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 092"
+  },
+  {
+    "i": 92,
+    "cue": "中心には置きません。馬券の方向です。今回は、三連複で考えています。1列目の候補は、 ジョバンニとマテンロウゲイルです。",
+    "prompt": "talented three-year-old bay thoroughbred Derby fifth, Hanshin 2000m contender, photoreal, no text no logos, medium shot, three-quarter angle, soft morning light, clear crisp air, primary subject: analysis desk with papers and monitor glow, distinct composition #93, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 093"
+  },
+  {
+    "i": 93,
+    "cue": "枠順、パドック、 当日のトラックバイアスまで確認して、 どちらか1頭に決めます。",
+    "prompt": "quiet closing atmosphere at the rail, soft fog, photoreal, full-body shot, three-quarter angle, bright overcast daylight, clear crisp air, primary subject: grandstand architecture silhouette, distinct composition #94, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 094"
+  },
+  {
+    "i": 94,
+    "cue": "2列目には、 1列目に選ばなかった馬と、 カラマティアノス、 ガイアメンテを置きます。",
+    "prompt": "consistent graded stakes thoroughbred, Nakayama Gold Cup winner aura, photoreal, no text no logos, wide establishing shot, over-the-rail viewpoint, bright overcast daylight, clear crisp air, primary subject: two horses overlapping in depth, distinct composition #95, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 095"
+  },
+  {
+    "i": 95,
+    "cue": "3列目の候補は、 レーゼドラマ、 マリアイリダータ、 グランヴィノス、",
+    "prompt": "experienced Hanshin 2000m thoroughbred, Challenge Cup runner-up last year, photoreal, no text no logos, very wide landscape framing, over-the-rail viewpoint, bright overcast daylight, humid summer haze, primary subject: finish-line geometry focus, distinct composition #96, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 096"
+  },
+  {
+    "i": 96,
+    "cue": " タガノデュード、 ピースワンデュックです。この中から、 枠順と当日の状態を見て、 残す馬と消す馬を決めます。",
+    "prompt": "powerful late-running thoroughbred, Osaka Hai fourth presence, photoreal, no text no logos, extreme close-up detail, eye-level camera, golden hour warm side light, humid summer haze, primary subject: starting gate structure without readable text, distinct composition #97, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 097"
+  },
+  {
+    "i": 97,
+    "cue": "無料の馬券タイプ診断は、 概要欄のLINEから受け取れます。是非概要欄もご覧ください。最後に質問です。",
+    "prompt": "Japanese racing tickets and soft turf bokeh, warm decision mood, no readable numbers, photoreal, tight portrait framing, eye-level camera, golden hour warm side light, humid summer haze, primary subject: single thoroughbred centered, distinct composition #98, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 098"
+  },
+  {
+    "i": 98,
+    "cue": "今年の3歳世代は、 古馬相手にも通用する強い世代だと思いますか。",
+    "prompt": "wet grass texture macro after watering, photoreal, medium shot, low-angle hero shot, golden hour warm side light, humid summer haze, primary subject: crowd as soft bokeh only, distinct composition #99, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 099"
+  },
+  {
+    "i": 99,
+    "cue": "あなたの考えを コメント欄で教えてください。最後までご覧いただき、 ありがとうございました。",
+    "prompt": "empty grandstand question-ending mood, contemplative, photoreal, full-body shot, low-angle hero shot, blue hour cool twilight, humid summer haze, primary subject: betting tickets in shallow depth of field, distinct composition #100, avoid repeating previous framing, no text, no logos, no readable saddle cloths, 16:9 widescreen, edge-to-edge frame, photoreal racing documentary still, high detail, unique shot id 100"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "race": "神戸新聞杯2026",
+  "ass_name": "kobeshimbun",
+  "output_name": "kobe_shimbun_hai_2026",
+  "voice": "ja-JP-KeitaNeural",
+  "motion": "still_xfade",
+  "speed": 1.1,
+  "course_keywords": "阪神|芝2400|神戸新聞杯|やや堅め|右回り|内回り|ダービー",
+  "horses": {
+    "グリーンエナジー": "athletic bay thoroughbred Keisei Hai winner, Derby stamina fade concern over 2400m, photoreal, no text no logos",
+    "ロブチェン": "elite bay thoroughbred Japanese Derby winner and Satsuki Sho front-runner, versatile pace or mid-pack, photoreal, no text no logos",
+    "コンジェスタス": "powerful thoroughbred Kyoto Shimbun Hai winner, sustained mid-pack kick at 2400m, photoreal, no text no logos",
+    "アルトラムス": "capable thoroughbred Mainichi Hai winner Derby sixth, rear-to-finish type, photoreal, no text no logos",
+    "ゴーラッキー": "pace-setting thoroughbred summer improver, front-running Tokyo 2000m winner, photoreal, no text no logos",
+    "シートゥサミット": "Hanshin turf 2400m experienced thoroughbred one-win class, late closer staying on, photoreal, no text no logos",
+    "カフジエメンタール": "front-second thoroughbred Chukyo 2200m two-win winner, needs Hanshin translation, photoreal, no text no logos",
+    "エイシンインアウト": "late-running thoroughbred Sapporo turf improver, place outsider aura, photoreal, no text no logos",
+    "エムズビギン": "early-speed thoroughbred fading at longer trips, cooler grade, photoreal, no text no logos",
+    "ショウナンハヤナミ": "unbeaten two-for-two thoroughbred with long layoff and distance unknown, photoreal, no text no logos",
+    "カムアップローゼス": "graded-experience thoroughbred without 2400m proof, cooler grade, photoreal, no text no logos"
+  }
+}
